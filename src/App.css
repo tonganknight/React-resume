@@ -1,31 +1,47 @@
+:root{
+  --primary-color: Whitesmoke;
+  --secondary-color: #0ff;
+  --background: #3e5c76;
+  }
+
+  a{
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+  .navbar:hover{
+    text-decoration: none;
+    
+  }
 
 
+/* Controllers the vid and text layout */
 .missionbannerflex{
   display: flex;
   justify-content: center;
  
 }
 
+/* Controls the dimensions of the Vid */
 .vid1{
   position: fixed;
   z-index: -1;
   width: 320px;
 
 }
-
+/*Controls the text and name layout*/
 .missionstatementflex{
   display: flex;
-  margin-top: 25px;
   opacity: 100%;
   color: white;
   z-index: 1;
 }
-
+/* Controls the way the name appears*/
 .name{
   font-weight: bold;
   font-size: 20px;
 }
-
+/* Controls the text on the vid */
 .missionstatement{
   display: flex;
   height: 150px; /* height of vid */
@@ -36,5 +52,44 @@
   margin-bottom: 20px;
   font-size: 9px;
 }
+/* Controls the navbar  */
+.navbar{ 
+  width: 100%;
+  position: fixed;
+  z-index: 1; /* makes the nav bar  not overlap 2 makes it overlap*/
+  color: var(--primary-color);
+}
 
+.flexnav{
+  display:flex;
+  width: 100%;
+}
 
+.aboutmeflex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 2px;
+}
+
+.navtext{ 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  color: var( --primary-color);
+  text-decoration: none;
+}
+
+.navtextflex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+}
+
+.resume{ 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  color: var( --primary-color);
+}
