@@ -1,17 +1,8 @@
 import React, {useEffect} from 'react';
 
 
-
-
 function About() {
 
-    
-function componentDidMount () {
-    const script = document.createElement("script");
-    script.src = "../../assets/JS/index.js";
-    script.async = true;
-    document.body.appendChild(script);
-}
 
     return (
 
@@ -28,18 +19,8 @@ function componentDidMount () {
         </div>
 
         <ul className="hobbielisttext"><strong>Somethings that I enjoy</strong>
-                <li> I have a passionate for music</li>
-
-                I play The Ukulele, and The Guitar.
-                <strong> Click on one the thumb nails below.</strong>
-
-                <div class="hobbieiconflex">
-
-                  <div id="playukulele" className="ukulele"></div>
-                  <div id="playguitar" className="Guitar"></div>
-                  
-              
-              </div>
+                <li> I have a passionate for music.
+                     I play The Ukulele, and The Guitar.</li>
 
               <li>I love spending time with Family and Friends</li>
 
@@ -49,15 +30,16 @@ function componentDidMount () {
               
               <li>I also enjoy exploring, and learning new technologies</li>
 
-            </ul>
+        </ul>
 
-            <script src ="../../assets/JS/index.js"> </script>
+
     </div>
      
 
     )
 
 }
+
 
 
 export default About

@@ -36,15 +36,3 @@ guitardiv.addEventListener("click", function(){
     
     playguitar()
 })
-
-
-//Event listener for show hobbies button
-document.getElementById("hobbiestoggle").addEventListener("click", function() {
-
- const turnon = document.getElementById("hobbielist").style.visibility = "visible"
-
-document.getElementById("hobbiestoggle").style.visibility = "hidden"
-
-const show = true;
-
-});
