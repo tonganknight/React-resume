@@ -93,3 +93,43 @@
   justify-content: center;
   color: var( --primary-color);
 }
+/*flex for aboutme background */
+.aboutmecontentflex{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background);
+   /*background-position: 90%;*/
+  height: 100%;
+  width: 100%;
+}
+
+/* governs my pic in the about me section*/
+.mypic{
+  background-image: url("./assets/Images/aboutme1.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 320px;
+}
+/* text in the about me section*/
+.aboutmetextflex{
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 12px;
+  margin: 20px;
+
+}
+
+.ukulele{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQW-m86X9N22xKDVO_MMcPIk68Ux5AmyPhTKg&usqp=CAU");
+  background-size: cover;
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
+}
+
+.Guitar{
+  background-image: url("https://s4827.pcdn.co/wp-content/uploads/2016/01/garageband_iOS_icon.png");
+  background-size: cover;
+  height: 25px;
+  width: 25px;
+}

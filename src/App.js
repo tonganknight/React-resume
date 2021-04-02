@@ -1,6 +1,8 @@
 import './App.css';
 import Banner from './components/Banner';
 import Nav from './components/Nav';
+import Renderlive from './components/Renderlive';
+import About from './components/About';
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       </Banner>
       <Nav>
       </Nav>
+      <About></About>
     </div>
   );
 }

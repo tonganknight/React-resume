@@ -1,7 +1,7 @@
 import react from 'react';
 
-function Nav() {
-
+function Nav(props) {
+    const tabs =['About, Resume, Portfolio, Contact']
     return(
         <nav className="navbar navbar-light bg-secondary">
             <div className="flexnav">
@@ -9,13 +9,13 @@ function Nav() {
                 <a  id="aboutmeclick" className="navtext" href="#about-me">About Me</a>
             </div>
             <div className="navtextflex">
-                <a  id="resumeclick" className="navtext" href="#about-me">Resume</a>
+                <a  id="resumeclick" className="navtext" href="#Resume">Resume</a>
             </div>
             <div className="navtextflex">
-                <a  id="portfolioclick" className="navtext" href="#about-me">Portfolio</a>
+                <a  id="portfolioclick" className="navtext" href="#Portfolio">Portfolio</a>
             </div>
             <div className="navtextflex">
-                <a  id="portfolioclick" className="navtext" href="#about-me">Contact</a>
+                <a  id="Contactclick" className="navtext" href="#Contact">Contact</a>
             </div>
             </div>
         </nav>
