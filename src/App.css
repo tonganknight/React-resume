@@ -1,0 +1,40 @@
+
+
+.missionbannerflex{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.vid1{
+  position: fixed;
+  z-index: -1;
+  width: 320px;
+
+}
+
+.missionstatementflex{
+  display: flex;
+  margin-top: 25px;
+  opacity: 100%;
+  color: white;
+  z-index: 1;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.missionstatement{
+  display: flex;
+  height: 150px; /* height of vid */
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: 9px;
+}
+
+
