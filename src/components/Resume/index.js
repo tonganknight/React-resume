@@ -20,7 +20,7 @@ function Resume() {
             <li>Bulma</li>
         </ui> 
 
-        <ui><strong>Back-end Technologies</strong>
+        <ui className="backend"><strong>Back-end Technologies</strong>
         <li>API</li>
         <li>Express</li>
         </ui>
@@ -33,6 +33,5 @@ function Resume() {
     )
 
 }
-
 
 export default Resume

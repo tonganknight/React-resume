@@ -31,4 +31,4 @@ function Renderlive() {
     )
 }
 
-export default Renderlive;
+export default Renderlive
