@@ -19,12 +19,12 @@ function About() {
         </div>
 
         <ul className="hobbielisttext"><strong>Somethings that I enjoy</strong>
-                <li> I have a passionate for music.
+                <li> I have a passion for music.
                      I play The Ukulele, and The Guitar.</li>
 
-              <li>I love spending time with Family and Friends</li>
+              <li>I love spending time with family and friends</li>
 
-              <li>Museums and landmarks are always trips I enjoy</li>
+              <li>I enjoy visiting Museums and Landmarks</li>
 
               <li>I am a huge fan of Sushi</li>
               
