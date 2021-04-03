@@ -104,9 +104,11 @@
   color: var( --primary-color);
 }
 /*flex for aboutme background */
+
 .aboutmecontentflex{
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: var(--background);
    /*background-position: 90%;*/
   height: 100%;
@@ -119,7 +121,7 @@
   background-image: url("./assets/Images/aboutme1.jpg");
   background-size: cover;
   height: 200px;
-  width: 320px;
+  width: 100%;
 }
 /* text in the about me section*/
 .aboutmetextflex{
@@ -138,21 +140,23 @@
 .resumeSection{
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: var(--background);
   color: var(--primary-color);
   height: 100%;
+
   
 }
 /* main top text in resume section */
 .resumeTitle{
-  margin: 5px;
+  margin: 15px;
 }
 
 /* the line that lets you download the resume*/
 .PDFoffer{
   font-size: 12px;
   margin-bottom: 20px;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 /* this controls the position of the icons*/
@@ -164,12 +168,12 @@
 
 /* controls the list items on the resume section*/
 li{
-  margin-left: 10px;
+  margin-left: 15px;
   font-size: 15px;
 /*controls the main List names margin*/
 }
 ul{
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 .databaseicon{
@@ -181,6 +185,7 @@ ul{
 
 .databasetext{
   margin-left: 30px;
+  
 
 }
 
@@ -321,3 +326,5 @@ width: 100%;
   background-size: cover;
   opacity: 1.0;
 }
+
+
