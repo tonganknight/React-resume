@@ -9,7 +9,7 @@ function Resume() {
 
         <div className="PDFoffer"> for a PDF Copy of my resume Please click<a href="#">Here</a></div>
 
-        <ui><strong>Front-end Technologies</strong>
+        <ul><strong>Front-end Technologies</strong>
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
@@ -18,16 +18,16 @@ function Resume() {
             <li>Bootstrap</li>
             <li>Handlebars</li>
             <li>Bulma</li>
-        </ui> 
+        </ul> 
 
         <ui className="backend"><strong>Back-end Technologies</strong>
         <li>API</li>
         <li>Express</li>
         </ui>
 
-        <div className="databaseicon"><span className="databasetext">Database:</span></div>
-       
-        <div>MongoDB, MySQL, SQlite</div>
+        <div className="databaseicon"></div>
+        <div className="databasetext "><strong>Database:</strong></div>
+        <div className="database">MongoDB, MySQL, SQlite</div>
     </div>
 
     )

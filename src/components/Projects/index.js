@@ -16,19 +16,19 @@ function Projects() {
 
         <a className ="repolink" target="blank" href="https://github.com/tonganknight/awesome-sauce">You can find the Git repo for leftovers here </a>
 
-        <a className="projectwindow1 leftovercustom1" target="blank" href="https://tonganknight.github.io/awesome-sauce/"></a>
+        <a className="projectwindow1 windoweffect" target="blank" href="https://tonganknight.github.io/awesome-sauce/"></a>
 
         <div className="projecttitle">Taskmaster Pro</div>
 
         <a className ="repolink" target="blank" href="https://github.com/tonganknight/taskmaster-pro">You can find the Git repo for Taskmaster here </a>
 
-        <a className="projectwindow2 leftovercustom1" target="blank" href="https://tonganknight.github.io/taskmaster-pro/"></a>
+        <a className="projectwindow2 windoweffect" target="blank" href="https://tonganknight.github.io/taskmaster-pro/"></a>
        
         <div className="projecttitle">Work Scheduler</div>
 
         <a className ="repolink" target="blank" href="https://github.com/tonganknight/taskmaster-pro">You can find the repo for Work Scheduler here </a>
 
-        <a className=" projectwindow3" target="blank" href="https://tonganknight.github.io/Work-Scheduler/"></a>
+        <a className=" windoweffect projectwindow3" target="blank" href="https://tonganknight.github.io/Work-Scheduler/"></a>
         
         <div className="projecttitle">Run Buddy</div>
 
