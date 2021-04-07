@@ -24,7 +24,7 @@ function Resume() {
         <li>Node.js</li>
         <li>Express.js</li>
         <li>Sequelize.js</li>
-        <li>APis</li>
+        <li>APIs</li>
         <li>GraphQL</li>
         <li>PWA</li>
         </ui>
