@@ -35,8 +35,8 @@ function Contact() {
       
       console.log(formState);
 return(
-    <div>
-    <div className="contactTitle">Feel free to reach out to me!</div> 
+    <div className="contactback">
+    <div className="contactTitle"><strong>Feel free to reach out to me!</strong></div> 
     <div className="contactText">Email: malachialusa@gmail.com</div>
     <div className="contactText">Phone: 435-772-5377</div>
     <div className="contactText">Or message me through the social media outlets below!</div>

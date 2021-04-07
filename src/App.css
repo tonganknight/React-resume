@@ -16,7 +16,7 @@
     }
   
     .navbar:hover{
-      text-decoration: none;
+      text-decoration: none !important;
       
     }
   
@@ -65,6 +65,8 @@
     z-index: 1; /* makes the nav bar  not overlap 2 makes it overlap*/
     color: var(--primary-color);
     display: flex;
+    text-decoration: none !important;
+    
   }
   
   .flexnav{
@@ -90,7 +92,7 @@
     margin-left: 10px;
     font-size: 15px;
     color: var( --primary-color);
-    text-decoration: none;
+    text-decoration: none !important;
   }
   
   .navtextflex{
@@ -358,7 +360,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 350px;
+    height: 339px;
     text-align: center;
 
   }
@@ -393,9 +395,55 @@
     margin-left: 10px;
 }
 
+.facebookicon:hover{
+
+    
+
+  box-shadow: 0px 0px 5px 5px var( --secondary-color);
+
+  /*box-shadow:5px 2px 2px 2px #0ff; */
+}
+
+.linkedinicon:hover{
+  
+  box-shadow: 0px 0px 5px 5px var( --secondary-color);
+}
+
+.githubicon:hover{
+  
+  box-shadow: 0px 0px 5px 5px var( --secondary-color);
+}
+
 .findme{
   color: var(--primary-color);
   text-align: center;
+}
+
+
+.contactback{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+
+}
+
+.contactTitle{
+  margin-top: 25px;
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contactText{
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;;
 }
 
   }
@@ -412,7 +460,7 @@
   }
 
   .navbar:hover{
-    text-decoration: none;
+    text-decoration: none !important;
     
   }
 
@@ -464,6 +512,7 @@
   z-index: 1; /* makes the nav bar  not overlap 2 makes it overlap*/
   color: var(--primary-color);
   display: flex;
+  text-decoration: none !important;
 }
 
 .flexnav{
@@ -489,7 +538,7 @@
   margin-left: 10px;
   font-size: 15px;
   color: var( --primary-color);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .navtextflex{
@@ -754,6 +803,33 @@ width: 100%;
   opacity: 1.0;
 }
 
+
+.contactback{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+
+}
+
+.contactTitle{
+  margin-top: 25px;
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contactText{
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;;
+}
+
 } /* end of 320px media query*/
 
 @media only screen and (min-width: 768px) {  
@@ -769,7 +845,7 @@ width: 100%;
   }
 
   .navbar:hover{
-    text-decoration: none;
+    text-decoration: none !important;
     
   }
 
@@ -821,6 +897,7 @@ width: 100%;
   z-index: 1; /* makes the nav bar  not overlap 2 makes it overlap*/
   color: var(--primary-color);
   display: flex;
+  text-decoration: none !important;
 }
 
 .flexnav{
@@ -846,7 +923,7 @@ width: 100%;
   margin-left: 10px;
   font-size: 15px;
   color: var( --primary-color);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .navtextflex{
@@ -1140,6 +1217,33 @@ width: 100%;
   margin-left: 10px;
 }
 
+
+.contactback{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+
+}
+
+.contactTitle{
+  margin-top: 25px;
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contactText{
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;;
+}
+
 }
 
 /* End of 768px media query*/
@@ -1156,7 +1260,7 @@ width: 100%;
   }
 
   .navbar:hover{
-    text-decoration: none;
+    text-decoration: none !important;
     
   }
 
@@ -1210,6 +1314,7 @@ width: 100%;
   z-index: 1; /* makes the nav bar  not overlap 2 makes it overlap*/
   color: var(--primary-color);
   display: flex;
+  text-decoration: none !important;
 
 }
 
@@ -1236,7 +1341,7 @@ width: 100%;
   margin-left: 10px;
   font-size: 20px;
   color: var( --primary-color);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .navtextflex{
@@ -1542,6 +1647,32 @@ width: 100%;
   margin-left: 10px;
 }
 
+.contactback{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+
+}
+
+.contactTitle{
+  margin-top: 25px;
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contactText{
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;;
+}
+
 
 
 } /* end of 320px media query*/
@@ -1559,7 +1690,7 @@ width: 100%;
   }
 
   .navbar:hover{
-    text-decoration: none;
+    text-decoration: none !important;
     
   }
 
@@ -1612,7 +1743,8 @@ width: 100%;
   z-index: 1; /* makes the nav bar  not overlap 2 makes it overlap*/
   color: var(--primary-color);
   display: flex;
-  justify-content: none  ;
+  justify-content: flex-start !important;
+  text-decoration: hidden !important;
 }
 
 
@@ -1640,11 +1772,12 @@ width: 100%;
   margin-left: 10px;
   font-size: 20px;
   color: var( --primary-color);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .navtext:hover{
   color: var(--secondary-color);
+  text-decoration: none !important;
 }
 
 .navtextflex{
@@ -1944,12 +2077,19 @@ width: 100%;
 }
 
 
+.contactback{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
 
+}
 
 .contactTitle{
+  margin-top: 25px;
   background-color: var(--background);
   color: var(--primary-color);
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
   text-align: center;
 }
@@ -1960,6 +2100,7 @@ width: 100%;
   font-size: 35px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 15px;;
 }
 
 
