@@ -7,7 +7,7 @@ function Resume() {
     <div className="resumeSection">
         <div className="resumeTitle"><strong>Resume and Qualifications</strong></div>
 
-        <div className="PDFoffer"> for a PDF Copy of my resume Please click<a target="blank" href="https://drive.google.com/file/d/11V6vqhqcdLe2PcA4jed1JalqweTI-R3o/view?usp=sharing">Here</a></div>
+        <div className="PDFoffer"> for a PDF Copy of my resume Please click<a target="blank" href="./Malachi Alusa Resume.pdf" download>Here</a></div>
 
         <ul><strong>Front-end Technologies</strong>
             <li>HTML</li>
