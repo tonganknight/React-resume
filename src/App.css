@@ -331,6 +331,28 @@
     opacity: 1.0;
   }
 
+  .projectwindow5{
+    display: flex;
+    height: 150px;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-image: url("./assets/Images/readviewsLogo.png");
+    background-size: cover;
+    opacity: 1.0;
+  }
+  
+  .projectwindow6{
+    display: flex;
+    height: 150px;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-image: url("./assets/Images/Tech-book.JPG");
+    background-size: cover;
+    opacity: 1.0;
+  }
+
   .footerflex{
     background-color:  var(--background);
     display: flex;
@@ -710,6 +732,27 @@ width: 100%;
   opacity: 1.0;
 }
 
+.projectwindow5{
+  display: flex;
+  height: 150px;
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  background-image: url("./assets/Images/readviewsLogo.png");
+  background-size: cover;
+  opacity: 1.0;
+}
+
+.projectwindow6{
+  display: flex;
+  height: 150px;
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  background-image: url("./assets/Images/Tech-book.JPG");
+  background-size: cover;
+  opacity: 1.0;
+}
 
 } /* end of 320px media query*/
 
@@ -1041,6 +1084,28 @@ width: 100%;
   margin-top: 25px;
   margin-bottom: 20px;
   background-image: url("./assets/Images/run-buddy.JPG");
+  background-size: cover;
+  opacity: 1.0;
+}
+
+.projectwindow5{
+  display: flex;
+  height: 300px;
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  background-image: url("./assets/Images/readviewsLogo.png");
+  background-size: cover;
+  opacity: 1.0;
+}
+
+.projectwindow6{
+  display: flex;
+  height: 300px;
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  background-image: url("./assets/Images/Tech-book.JPG");
   background-size: cover;
   opacity: 1.0;
 }
@@ -1416,6 +1481,28 @@ width: 100%;
   margin-top: 25px;
   margin-bottom: 50px;
   background-image: url("./assets/Images/run-buddy.JPG");
+  background-size: cover;
+  opacity: 1.0;
+}
+
+.projectwindow5{
+  display: flex;
+  height: 300px;
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  background-image: url("./assets/Images/readviewsLogo.png");
+  background-size: cover;
+  opacity: 1.0;
+}
+
+.projectwindow6{
+  display: flex;
+  height: 300px;
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  background-image: url("./assets/Images/Tech-book.JPG");
   background-size: cover;
   opacity: 1.0;
 }
