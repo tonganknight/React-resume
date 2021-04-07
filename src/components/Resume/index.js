@@ -7,7 +7,7 @@ function Resume() {
     <div className="resumeSection">
         <div className="resumeTitle"><strong>Resume and Qualifications</strong></div>
 
-        <div className="PDFoffer"> for a PDF Copy of my resume Please click<a href="#">Here</a></div>
+        <div className="PDFoffer"> for a PDF Copy of my resume Please click<a href="https://www.pdfescape.com/shared/?BDDDE685871FBCC73DF6808A40BE601E048E59C916B239F6">Here</a></div>
 
         <ul><strong>Front-end Technologies</strong>
             <li>HTML</li>
@@ -21,8 +21,12 @@ function Resume() {
         </ul> 
 
         <ui className="backend"><strong>Back-end Technologies</strong>
-        <li>API</li>
-        <li>Express</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Sequelize.js</li>
+        <li>APis</li>
+        <li>GraphQL</li>
+        <li>PWA</li>
         </ui>
 
         <div className="databaseicon"></div>
