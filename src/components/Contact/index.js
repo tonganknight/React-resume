@@ -38,7 +38,7 @@ return(
     <div className="contactback">
     <div className="contactTitle"><strong>Feel free to reach out to me!</strong></div> 
     <div className="contactText">Email: malachialusa@gmail.com</div>
-    <div className="contactText">Phone: 435-772-5377</div>
+    <div className="contactText">Phone: 435-772-5277</div>
     <div className="contactText">Or message me through the social media outlets below!</div>
 
     </div>
