@@ -5,6 +5,7 @@ function Nav({currentPage, handlepageChange}) {
     const tabs =['About', 'Resume', 'Projects', 'Contact']
     return(
         <nav className="navbar navbar-light bg-secondary">
+            <div>Malachi Alusa</div>
             
                 {tabs.map(tab => (
                     <div key={tab} className="navtext"><a href={'#' + tab.toLowerCase()}
@@ -13,6 +14,8 @@ function Nav({currentPage, handlepageChange}) {
                     currentPage === tab ? 'nav-link active' : 'nav-link', "navtext"
                     } >{tab}</a></div>
                 ))}
+
+        
 
            
         </nav>

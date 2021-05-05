@@ -1,7 +1,12 @@
 :root{
   --primary-color: Whitesmoke;
   --secondary-color: #0ff;
+  --tertiary-color: #6c757d;
   --background: #3e5c76;
+  }
+
+  .break{
+    margin-top: 20px;
   }
 
   @media only screen and (min-width: 320px) {  
@@ -1782,7 +1787,8 @@ width: 100%;
   margin-top: 25px;
 }
 /* Controls the navbar  */
-.navbar{ 
+.navbar{
+  position: fixed !important; 
   width: 100%;
   height: 60px;
   z-index: 1; /* makes the nav bar  not overlap 2 makes it overlap*/
@@ -1842,7 +1848,6 @@ width: 100%;
 .aboutmecontentflex{
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: var(--background);
    /*background-position: 90%;*/
   height: 100%;
@@ -1850,25 +1855,92 @@ width: 100%;
   color: var(--primary-color)
 }
 
+.background{
+  background-color: var(--background);
+}
+
+/*About Section */
+
 /* governs my pic in the about me section*/
 .mypic{
   background-image: url("./assets/Images/aboutme1.jpg");
   background-size: cover;
-  height: 800px;
-  width: 100%;
+  height: 500px;
+  width: 500px;
+  margin-top: 75px;
+  margin-left: 15px;
+  border-radius: 17px;
 }
 /* text in the about me section*/
 .aboutmetextflex{
+  display: flex;
   color: var(--primary-color);
-  text-align: center;
-  font-size: 25px;
-  margin: 20px;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.aboutmeText{
+  height: 400px;
+  width: 710px;
+  margin-left: 200px;
+  margin-top: 200px;
+  font-size: 24px;
+}
+
+.hobbiebutton{
+  background-color: var(--tertiary-color);
+  height:40px;
+  color: whitesmoke;
+  margin-top: 5%;
+  margin-left: 45.5%;
+  border-radius: 6px;
+  font-size: 20px;
+  visibility: visible;
+}
+
+.hobbiebutton:hover{
+  color: var(--secondary-color);
+  box-shadow: 0px 0px 10px 10px var(--secondary-color);
+}
+
+
+.hobbielisttext{
+  margin: 0px;
+  font-size: 40px;
+  color: var(--primary-color)
+}
+
+.hobbies{
+  display:flex;
+  flex-direction: row;
+  margin-left: 500px;
 
 }
 
-.hobbielisttext{
-  margin: 20px;
+.soundButton{
+  background-color: #7209b7 !important;
+  border-color: #7209b7 !important;
+  font-weight: bold !important;
+
+}
+.soundButton:hover{
+  box-shadow: 0px 0px 10px 10px #B450F7 !important;
+}
+
+
+.btn:focus { /* this removes the outline on the focus on bootstrapbuttons*/
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.music{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   font-size: 40px;
+  color: var(--primary-color);
+  margin-left: 30px;
+
 }
 
 /*Flexbox for resume Section */

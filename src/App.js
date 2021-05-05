@@ -8,11 +8,10 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <div>
-      <Banner>
-      </Banner>
       <Renderlive/>
      <Footer/>
     </div>
