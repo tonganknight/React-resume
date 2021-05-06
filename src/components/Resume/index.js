@@ -1,13 +1,19 @@
 import React from 'react';
 
+
+
 function Resume() {
+
+function showDiv(){
+    document.getElementById("logo").style.visibility ="visible"
+}
 
     return(
        
     <div className="resumeSection">
         <div className="resumeTitle"><strong>Here is a brief overview of some of my qualifications</strong></div>
 
-        <div className ="UofUTitle"><strong>University of Utah</strong></div>
+        <div onMouseOver ={showDiv}className ="UofUTitle"><div id="logo"  className="UofUMicroLogo"></div><strong className="test">University of Utah</strong></div>
         <div className="UofUflex">
         <div className="UofUpic"></div>
         <div className="UofUQRCode"></div>   
@@ -28,7 +34,7 @@ function Resume() {
          Salt Lake City, Kanab, and Saint George areas. 
          </div>
 
-         <div className="PDFoffer"> For a full copy of my resume Please click <a target="blank" href="./Malachi Alusa Resume.pdf" download>Here</a></div>
+         <div id="otherXp"className="PDFoffer"> For a full copy of my resume Please click <a target="blank" href="./Malachi Alusa Resume.pdf" download>Here</a></div>
 
 
         <ul><strong>Front-end Technologies</strong>
