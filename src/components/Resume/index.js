@@ -57,11 +57,7 @@ function showDiv(){
         <li>PWA</li>
         </ui>
 
-        <div className="databaseicon"></div>
-        <div className="databasetext "><strong>Database:</strong></div>
-        <div className="database">MongoDB, MySQL, SQlite</div>
 
-        <div className="PDFoffer"> for a PDF Copy of my resume Please click<a target="blank" href="./Malachi Alusa Resume.pdf" download>Here</a></div>
     </div>
  
     )

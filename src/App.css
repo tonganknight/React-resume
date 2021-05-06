@@ -1957,11 +1957,14 @@ width: 100%;
   align-items: center;
   background-color: var(--background);
   color: var(--primary-color);
-  height: 100%;
-
-
-  
+  height: 100%;  
 }
+
+
+
+
+
+
 /* main top text in resume section */
 .resumeTitle{
   margin: 15px;
@@ -2043,6 +2046,274 @@ color: red;
 
 }
 
+/* Experience Page */
+
+.experienceflex{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background);
+}
+
+.experienceicons1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  width: 500px;
+  height: 100px;
+  margin-left: 300px;
+  margin-top: 125px;
+
+}
+
+.experienceicons2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  width: 710px;
+  height: 100px;
+  margin-left: 300px;
+  margin-top: 100px;
+
+
+}
+.experienceicons3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  background-color:  var(--background);
+  width: 940px;
+  height: 100px;
+  margin-left: 300px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+/* experience icons */
+
+.experienceTitle{
+font-size: 40px;
+
+}
+
+.xpicon{
+  background-size: cover;
+  height: 100px;
+  width: 100px
+}
+
+.htmlicon{
+  background-image: url("https://freeiconshop.com/wp-content/uploads/edd/html-flat.png");
+
+}
+
+.htmlicon:hover{
+  animation: turn 4s infinite;
+  animation-timing-function: linear;}
+
+  @keyframes turn{
+        
+      100% {transform:rotatez(360deg) } }
+
+.cssicon{
+  background-image: url("https://freeiconshop.com/wp-content/uploads/edd/css-flat.png");
+
+}
+.cssicon:hover{
+  animation: spin 4s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin{
+        
+  100% {transform:rotatex(360deg) } }
+
+.javascripticon{
+  background-image: url("https://freeiconshop.com/wp-content/uploads/edd/js-flat.png");
+
+}
+
+.javascripticon:hover{
+  animation: coin 4s infinite;
+  animation-timing-function: linear;
+}
+@keyframes coin{
+        
+  100% {transform:rotatey(360deg) } }
+
+
+.nodejsicon{
+  background-image: url("https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/node-256.png");
+}
+
+.reacticon{
+  background-image: url("https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-256.png");
+}
+
+.databaseicon{
+  background-image: url("https://cdn1.iconfinder.com/data/icons/ColoBrush_Pack/256/database.png");
+}
+
+.graphqlicon{
+  background-image: url("./assets/Images/graphql.png");
+}
+
+.pwaicon{
+  background-image: url("./assets/Images/PWA.png");
+  background-size: cover;
+  width: 120px;
+}
+
+.npmicon{
+  background-image: url("https://cdn1.iconfinder.com/data/icons/programing-development-8/24/npm_logo-256.png");
+}
+
+.bootstrapicon{
+  background-image: url("https://cdn1.iconfinder.com/data/icons/flat-and-simple-part-1/128/bootstrap-256.png");
+}
+
+.apiicon{
+  background-image: url("./assets/Images/api.png");
+}
+
+.jqueryicon{
+  background-image: url("https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/jquery-256.png");
+}
+
+.Cicon{
+  background-image: url("https://user-images.githubusercontent.com/42747200/46140125-da084900-c26d-11e8-8ea7-c45ae6306309.png");
+  height: 112px;
+}
+
+.pythonicon{
+background-image: url("https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png");
+}
+.rubyicon{
+  background-image: url("https://findicons.com/files/icons/2420/coded/512/page_ruby.png");
+}
+
+.xpicon2textflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  width: 670px;
+  height: 100px;
+  margin-left: 310px;
+  margin-top: 10px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.jquerytext{
+  margin-right: 35px;
+}
+
+.Apitext{
+  margin-left: 35px;
+}
+
+
+.xpicon3textflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  width: 900px;
+  height: 100px;
+  margin-left: 310px;
+  margin-top: 10px;
+  color: var(--primary-color);
+  background-color: var(--background);
+  font-weight: bold;
+}
+
+.databseicontext{
+  margin-right: 25px;
+}
+
+.databaselist{
+  color: var(--primary-color);
+  margin-left:650px;
+}
+
+.exoeriencebackgroundflex{
+background-color:  var(--background);
+}
+
+.expierencetextflex{
+  display: flex;
+  background-color:  var(--background);
+}
+
+.expierencetextflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--background);
+  width:100%;
+  height: 100%;
+  background-color: var(--background);
+
+}
+
+.databaseExHolder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 3%;
+  background-color: var(--background);
+  color: var(--primary-color);
+  height: 100%;  
+}
+
+.experienceDivHolder{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+
+.experiencetext{
+  font-size: 25px;
+  text-align: center;
+  width: 900px;
+  margin-top: 60px;
+  margin-left: 15%;
+  color: var(--primary-color);
+
+}
+
+.experiencetext2{
+  font-size: 25px;
+  display: flex;
+  width: 900px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 20%;
+  color: var(--primary-color);
+}
+
+.experiencetext2:hover{
+color: var(--secondary-color);
+}
+
+.techBreakdown{
+display: flex;
+flex-direction: column;
+color: var(--primary-color);
+margin-left: 30%;
+
+}
+
+
+/* End of Experience page */
+
 
 
 /* the line that lets you download the resume*/
@@ -2065,9 +2336,15 @@ li{
   font-size: 25px;
 /*controls the main List names margin*/
 }
+
 ul{
-  margin-left: 15px;
+  margin:0px;
 }
+
+li:hover{
+color: var(--secondary-color)
+}
+
 
 .databaseicon{
   background-image: url("https://cdn1.iconfinder.com/data/icons/ColoBrush_Pack/256/database.png");
