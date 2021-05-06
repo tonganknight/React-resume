@@ -1921,6 +1921,9 @@ width: 100%;
   background-color: #7209b7 !important;
   border-color: #7209b7 !important;
   font-weight: bold !important;
+  margin-bottom: 7px;
+  height:37.53px;
+  width: 82.83px;
 
 }
 .soundButton:hover{
@@ -1943,6 +1946,8 @@ width: 100%;
 
 }
 
+/* End of About Section */
+
 /*Flexbox for resume Section */
 .resumeSection{
   display: flex;
@@ -1952,17 +1957,73 @@ width: 100%;
   color: var(--primary-color);
   height: 100%;
 
+
   
 }
 /* main top text in resume section */
 .resumeTitle{
   margin: 15px;
+  margin-top: 100px;
   font-size: 25px;
 }
 
+.UofUTitle{
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.UofUflex{
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 40px;
+}
+
+.UofUpic{
+  height: 500px;
+  width: 500px;
+  border: solid black;
+}
+
+.UofUQRCode{
+  height: 500px;
+  width: 500px;
+  border: solid black;
+}
+
+.UofUdiscription{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 50%;
+  font-size: 20px;
+  margin-bottom: 25px
+
+}
+
+.sales{ 
+ font-size: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.salesXp{
+  width: 50%;
+  font-size: 20px;
+  margin-bottom: 25px
+}
+
+.achievements{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
 /* the line that lets you download the resume*/
 .PDFoffer{
-  font-size: 15px;
+  font-size: 25px;
   margin-bottom: 20px;
   margin-left: 15px;
 }

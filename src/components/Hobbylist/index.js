@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 import { render } from "react-dom";
 import Ukulele from "../../assets/Sounds/Ukulele.mp3"
-import Guitar from "../../assets/Sounds/Ukulele.mp3"
+import Guitar from "../../assets/Sounds/Guitar.mp3"
 import {Howl, Howler} from 'howler';
 import {Button} from 'react-bootstrap'
 
 
 const audioClips =[
-    {sound: Ukulele, label: "Ukulele"}
+    {sound: Ukulele, label: "Ukulele"},
+    {sound: Guitar, label: "Guitar"}
     
 ]
 
@@ -48,7 +49,7 @@ class Hobbylist extends Component {
 
 
 
-        <ul className="hobbielisttext"><strong>Somethings that I enjoy</strong>
+        <ul className="hobbielisttext"><strong>Some things that I enjoy</strong>
             <li> I have a passion for music.
              I play The Ukulele, and The Guitar.</li>
 
