@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nav({currentPage, handlepageChange}) {
     
-    const tabs =['About', 'Resume', 'Projects', 'Contact']
+    const tabs =['About', 'Experience', 'Resume', 'Projects', 'Contact']
     return(
         <nav className="navbar navbar-light bg-secondary">
             <div>Malachi Alusa</div>

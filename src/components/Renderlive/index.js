@@ -3,6 +3,7 @@ import About from '../About';
 import Projects from '../Projects';
 import Resume from '../Resume';
 import Contact from '../Contact';
+import Experience from '../Experience'
 import Nav from '../Nav';
 
 function Renderlive() {
@@ -18,6 +19,9 @@ function Renderlive() {
                 return <Resume />;
             case 'Contact':
                 return <Contact />;
+            case 'Experience':
+                return <Experience />;
+
             default: 
                 return <About />;
         }
