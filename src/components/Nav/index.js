@@ -5,7 +5,7 @@ function Nav({currentPage, handlepageChange}) {
     const tabs =['About', 'Experience', 'Resume', 'Projects', 'Contact']
     return(
         <nav className="navbar navbar-light bg-secondary">
-            <div>Malachi Alusa</div>
+            <div className="Name">Malachi Alusa</div>
             
                 {tabs.map(tab => (
                     <div key={tab} className="navtext"><a href={'#' + tab.toLowerCase()}

@@ -94,7 +94,7 @@ function Experience(){
 
           <div className="databaseicon"></div>
         <div className="databasetext "><strong>Database:</strong></div>
-        <div className="database">MongoDB, MySQL, SQlite</div>
+        <div className="database">MongoDB, MySQL, SQL</div>
 
         </div>
         </div>

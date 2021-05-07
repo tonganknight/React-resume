@@ -13,7 +13,7 @@ function showDiv(){
     <div className="resumeSection">
         <div className="resumeTitle"><strong>Here is a brief overview of some of my qualifications</strong></div>
 
-        <div onMouseOver ={showDiv}className ="UofUTitle"><div id="logo"  className="UofUMicroLogo"></div><strong className="test">University of Utah</strong></div>
+        <div onMouseOver ={showDiv}className ="UofUTitle"><div id="logo"  className="UofUMicroLogo"></div><strong >University of Utah</strong></div>
         <div className="UofUflex">
         <div className="UofUpic"></div>
         <div className="UofUQRCode"></div>   
@@ -35,28 +35,6 @@ function showDiv(){
          </div>
 
          <div id="otherXp"className="PDFoffer"> For a full copy of my resume Please click <a target="blank" href="./Malachi Alusa Resume.pdf" download>Here</a></div>
-
-
-        <ul><strong>Front-end Technologies</strong>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>JQuery</li>
-            <li>React</li>
-            <li>Bootstrap</li>
-            <li>Handlebars</li>
-            <li>Bulma</li>
-        </ul> 
-
-        <ui className="backend"><strong>Back-end Technologies</strong>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>Sequelize.js</li>
-        <li>APIs</li>
-        <li>GraphQL</li>
-        <li>PWA</li>
-        </ui>
-
 
     </div>
  

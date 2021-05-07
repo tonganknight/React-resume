@@ -292,6 +292,7 @@
     margin-left: 15px;
     margin-top: 25px;
     text-align: center;
+    font-family: 'Zen Dots', cursive;
   }
   
   .repolink{
@@ -1948,6 +1949,11 @@ width: 100%;
 
 }
 
+.Name{
+  font-family: 'Zen Dots', cursive;
+  font-size: 30px;
+}
+
 /* End of About Section */
 
 /*Flexbox for resume Section */
@@ -2305,9 +2311,9 @@ color: var(--secondary-color);
 
 .techBreakdown{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 color: var(--primary-color);
-margin-left: 30%;
+margin-left: 20%;
 
 }
 
@@ -2341,9 +2347,6 @@ ul{
   margin:0px;
 }
 
-li:hover{
-color: var(--secondary-color)
-}
 
 
 .databaseicon{
@@ -2361,7 +2364,7 @@ color: var(--secondary-color)
 }
 
 .backend{
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .contactflex{
@@ -2388,85 +2391,106 @@ text-align: center;
 width: 100%;
 }
 
-.contacttitle{
-  text-align: center;
-  margin-bottom: 20px;
+/* Project Section 1200px */
 
-}
-
-
-.contactbtn{
-  margin-bottom: 20px;
-  background-color: silver;
-}
-
-.portfolioflex{
-  display: flex;
+.ProjectBackground{
+  display:flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: var(--background);
+  align-items: center;
+
+  height: 100%;
   width: 100%;
-  height: 100%;
+  background-color: var(--background);
 }
 
-
-
-.projecttext{
+.pane{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-left: 600px;
-  margin-top: 75px;
-  margin-right: 600px;
-  color: var(--primary-color);
   text-align: center;
-  font-size: 25px;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  margin-top: 100px;
+  background-color: var(--background);
 }
 
-
-.projectview1{
+.paneBody{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
   align-items: center;
-  background-color: var(--primary-color);
-  width: 85%;
-  height: 100%;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  margin-left: 150px;
-  background: rgba(255,255,255, 0.6);
-  overflow-y: auto;
+  width: 90%;
+  height: 90%;
+  background-color: var(--background);
 }
 
-.leftoverstitle{
+.card{
+  height: 90%;
+  width:90%;
+  margin-top: 100px;
+}
+
+.card{
+  height: 90%;
+  width:90%;
+  margin-top: 100px;
+}
+
+.cardflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.featureList{
+  text-align: center;
+  width: 100%;
+}
+
+.features{
+font-size: 35px;
+}
+
+.featureItem{
+  width: 50%;
+margin-left: 40%;
+font-size: 20px;
+}
+
+.ProjectWindow{
   margin-left: 200px;
-  margin-top: 25px;
+  height: 300px;
+  width: 100%;
+  border: solid white;
 }
 
-.projecttitle{
-  color: black;
+.Projectwindow1{
+  margin-right: 200px;
+  height: 300px;
+  width: 100%;
+  border: solid white;
+}
+
+.card1text{
+  font-size: 20px;
+  width: 100%;
+}
+
+.projectTitle{
+  color: var(--primary-color);
   font-weight: bold;
   font-size: 55px;
   margin-left: 15px;
   margin-top: 25px;
   text-align: center;
+  font-family: 'Zen Dots', cursive;
 }
 
-.repolink{
-  text-align: center;
-  font-size: 20px;
+.projectLinks{
+  margin-top: 100px;
+  font-size: 15px;
 }
 
-.projectwindow1{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/leftovers.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
 
 .projectwindow2{
   display: flex;

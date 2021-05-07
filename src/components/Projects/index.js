@@ -1,70 +1,169 @@
 import React from 'react';
+import {Card} from 'react-bootstrap';
 
 function Projects() {
 
     return(
        
-    <div className="portfolioflex">
-         <div className="projecttext">Over the past year I have built responsive applications with various technologies. Here is some of projects I have built.
-           I have broken these up into two sections to make browsing more convenient. 
-           I have also included links to the Git Hub repositories in case you want to check out how I made these. 
-           </div>
+    <div className="ProjectBackground">
+
+        <div className="pane">
+
+        <Card className=" card bg-dark text-light">
+    <Card.Header className="projectTitle">Artist Portfolio</Card.Header>
+    <Card.Body className="cardflex">
+
+        <div className="featureList">
+            <ul className="features"><strong>Features:</strong>
+                <li className="featureItem">Interactive Art Gallery</li>
+                <li className="featureItem">Custom built modals</li>
+                <li className="featureItem">Mobile First interface</li>
+        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Katie-Portfolio">Click here</a></div>
+            </ul>
+        </div>
+     
+            <Card.Text className="card1text">
+                This is a custom portfolio I built for a Graphic Design graduate.
+                It runs on  a React engine and uses components for easy navigation.
+                It also uses react-bootstrap's colum system for its lay out. 
+                I built a custom modal layout for this app that utilizes reacts state management for multiple view options.
+
+            </Card.Text>
         
-        <div className="projectview1">
+        <div className="ProjectWindow"></div>
 
-        <div className=" leftoverstitle projecttitle">Boostme</div>
+    </Card.Body>
 
-        <a className ="repolink" target="blank" href="https://github.com/tonganknight/awesome-sauce">You can find the Git repo for Boostme here </a>
-
-        <a className="projectwindow7 windoweffect" target="blank" href="https://boostme-0421.herokuapp.com/"></a>
-        
-        <div className=" leftoverstitle projecttitle">Leftovers</div>
-
-        <a className ="repolink" target="blank" href="https://github.com/tonganknight/awesome-sauce">You can find the Git repo for leftovers here </a>
-
-        <a className="projectwindow1 windoweffect" target="blank" href="https://tonganknight.github.io/awesome-sauce/"></a>
-
-        <div className="projecttitle">Readviews</div>
-
-        <a className ="repolink" target="blank" href="https://github.com/quaylas/readviews">You can find the repo for Readviews here </a>
-  
-        <a className="windoweffect projectwindow5" target="blank" href="https://readviews-022021.herokuapp.com/"></a>
-
-        <div className="projecttitle">Tech Book</div>
-
-        <a className ="repolink" target="blank" href="https://github.com/tonganknight/Tech-book">You can find the repo for Tech Book  here </a>
-  
-        <a className="windoweffect projectwindow6" target="blank" href="https://the-tech-book.herokuapp.com/"></a>
+  </Card>
 
 
-        <div className="projecttitle">Taskmaster Pro</div>
+</div>
 
-        <a className ="repolink" target="blank" href="https://github.com/tonganknight/taskmaster-pro">You can find the Git repo for Taskmaster here </a>
 
-        <a className="projectwindow2 windoweffect" target="blank" href="https://tonganknight.github.io/taskmaster-pro/"></a>
-       
-        <div className="projecttitle">Work Scheduler</div>
+<div className="paneBody">
 
-        <a className ="repolink" target="blank" href="https://github.com/tonganknight/taskmaster-pro">You can find the repo for Work Scheduler here </a>
+<Card className=" cardBody bg-dark text-light">
+<Card.Header className="projectTitle">Leftovers</Card.Header>
+<Card.Body className="cardflex">
 
-        <a className=" windoweffect projectwindow3" target="blank" href="https://tonganknight.github.io/Work-Scheduler/"></a>
-        
-        <div className="projecttitle">Run Buddy</div>
-
-        <a className ="repolink" target="blank" href="https://github.com/tonganknight/run-buddy">You can find the repo for Run Buddy here </a>
-          
-        <a className="windoweffect projectwindow4" target="blank" href="https://tonganknight.github.io/run-buddy/"></a>
-
-        
-
-        
+      <div className="featureList">
+            <ul className="features"><strong>Features:</strong>
+            <li className="featureItem">Edamon API Calls</li>
+            <li className="featureItem">Custom Health Filters</li>
+            <li className="featureItem">Recipe Favorites List </li>
+            <li className="featureItem">Drag and Drop UI</li>
+            <li className="featureItem">TP Mobile Interface</li>
+            <li className="featureItem">Bulma CSS Styling</li>
+            <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/awesome-sauce">Click here</a></div>
+            </ul>
         </div>
 
+    <Card.Text className="card1text">
+        Leftovers is an application I built to help Users see required ingredients for recipes  before going to a  recipe site
+        This app builds and executes  API calls from a user search and builds results which then users can chose to locally store in a favorites list.
+        I used JQuery, and Jquery-UI to give this app a drag and drop functionality. I also utilized a package called touch punch so the JQuery would work on mobile   
+        I used a mobile CSS frame work called Bulma to build the front end  of this app.
 
+    </Card.Text>
+
+    
+  <div className="ProjectWindow"></div>
+
+
+</Card.Body>
+</Card>
+
+
+</div>
+
+<div className="paneBody">
+
+<Card className=" card bg-dark text-light">
+<Card.Header className="projectTitle">TaskMaster</Card.Header>
+<Card.Body className="cardflex">
+
+    <div className="featureList">
+            <ul className="features"><strong>Features:</strong>
+                <li className="featureItem">Interactive Art Gallery</li>
+                <li className="featureItem">Custom built modals</li>
+                <li className="featureItem">Mobile First interface</li>
+            </ul>
+        </div>
+
+    <Card.Text className="card1text">
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+    </Card.Text>
+
+<div className="ProjectWindow"></div>
+
+</Card.Body>
+</Card>
+
+
+</div>
+
+<div className="paneBody">
+
+
+<Card className=" card bg-dark text-light">
+<Card.Header className="projectTitle">Runbuddy</Card.Header>
+<Card.Body className="cardflex">
+
+        <div className="featureList">
+            <ul className="features"><strong>Features:</strong>
+                <li className="featureItem">Interactive Art Gallery</li>
+                <li className="featureItem">Custom built modals</li>
+                <li className="featureItem">Mobile First interface</li>
+            </ul>
+        </div>
+
+    <Card.Text className="card1text">
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+    </Card.Text>
+
+<div className="ProjectWindow"></div>
+
+</Card.Body>
+</Card>
+
+
+</div>
+
+<div className="paneBody">
+
+<Card className=" card bg-dark text-light">
+<Card.Header className="projectTitle">Work Scheduler</Card.Header>
+<Card.Body className="cardflex">
+
+        <div className="featureList">
+            <ul className="features"><strong>Features:</strong>
+                <li className="featureItem">Interactive Art Gallery</li>
+                <li className="featureItem">Custom built modals</li>
+                <li className="featureItem">Mobile First interface</li>
+            </ul>
+        </div>
+
+    <Card.Text className="card1text">
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+    </Card.Text>
+
+<div className="ProjectWindow"></div>
+
+</Card.Body>
+</Card>
+
+
+</div>
+
+
+    </div>
 
 
            
-    </div>
+
 
     )
 
