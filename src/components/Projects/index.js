@@ -1,173 +1,73 @@
-import React from 'react';
-import {Card} from 'react-bootstrap';
+import React, { useState, Component}from 'react';
+import {Card, Button} from 'react-bootstrap';
+import ProjectInterface from '../ProjectInterface';
+import ProjectFullstack from '../ProjectFullstack';
+import AllProjects from '../AllProjects';
 
-function Projects() {
+class Project extends React.Component{
+    constructor(props) {
+        super(props);
+        this.handleUiClick = this.handleUiClick.bind(this);
+        this.handleFullstackClick = this.handleFullstackClick.bind(this);
+        this.state = {isShowAll: true};
+        this.state ={isShowUI: false};
+        this.state ={isShowFullstack: false};
+    }
 
-    return(
-       
-    <div className="ProjectBackground">
+    handleUiClick() {
+        this.setState({isShowAll: false});
+        this.setState({isShowFullstack: false});
+        this.setState({isShowUI: true});
 
-        <div className="pane">
+    }
 
-        <Card className=" card bg-dark text-light">
-    <Card.Header className="projectTitle">Artist Portfolio</Card.Header>
-    <Card.Body className="cardflex">
-
-        <div className="featureList">
-            <ul className="features"><strong>Features:</strong>
-                <li className="featureItem">Interactive Art Gallery</li>
-                <li className="featureItem">Custom built modals</li>
-                <li className="featureItem">Mobile First interface</li>
-        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Katie-Portfolio">Click here</a></div>
-            </ul>
-        </div>
-     
-            <Card.Text className="card1text">
-                This is a custom portfolio I built for a Graphic Design graduate.
-                It runs on  a React engine and uses components for easy navigation.
-                It also uses react-bootstrap's colum system for its lay out. 
-                I built a custom modal layout for this app that utilizes reacts state management for multiple view options.
-
-            </Card.Text>
-        
-        <div className="ProjectWindow"></div>
-
-    </Card.Body>
-
-  </Card>
+    handleFullstackClick() {
+        this.setState({isShowAll: false});
+        this.setState({isShowUI: false});
+        this.setState({isShowFullstack: true});
+    }
+    handleFullstackClick() {
+        this.setState({isShowAll: false});
+        this.setState({isShowUI: false});
+        this.setState({isShowFullstack: true});
+    }
 
 
-</div>
+    render() {
+        const isShowAll = this.state.isShowAll;
+        const isShowUI = this.state.isShowUI;
+        const isShowFullstack = this.state.isShowFullstack
 
+        let Projectdiv;
+        if (isShowAll){
+            Projectdiv = <AllProjects/>
+        }
+        if (isShowUI){
+            Projectdiv = <ProjectInterface/>
+        }
+        if (isShowFullstack){
+            Projectdiv = <ProjectFullstack />
+        }
+        if(!Projectdiv){
+            Projectdiv =<AllProjects/>
+        }
 
-<div className="paneBody">
+        return(
+                <div className="Projectbox">
+                    <div className="projectIntro">Here is some of my recent work.
+                    I've broken it into two catagories for easier navigation. </div>
+                    <div className="projectIntro2"><strong>Or feel free to scroll down and explore them all at once.</strong></div>
+                    <div className="buttonContainer"> 
+                        <Button variant="outline-dark" className="bg-dark text-light projectButtons" onClick={this.handleUiClick}>Creative UI</Button>
+                        <Button variant="outline-dark" className="bg-dark text-light projectButtons" onClick={this.handleFullstackClick}>Full Stack Projects</Button>
 
-<Card className=" cardBody bg-dark text-light">
-<Card.Header className="projectTitle">Leftovers</Card.Header>
-<Card.Body className="cardflex">
+                    </div>
+                    {Projectdiv}
+                        </div>
 
-      <div className="featureList">
-            <ul className="features"><strong>Features:</strong>
-            <li className="featureItem">Edamon API Calls</li>
-            <li className="featureItem">Custom Health Filters</li>
-            <li className="featureItem">Recipe Favorites List </li>
-            <li className="featureItem">Drag and Drop UI</li>
-            <li className="featureItem">TP Mobile Interface</li>
-            <li className="featureItem">Bulma CSS Styling</li>
-            <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/awesome-sauce">Click here</a></div>
-            </ul>
-        </div>
+        )
 
-    <Card.Text className="card1text">
-        Leftovers is an application I built to help Users see required ingredients for recipes  before going to a  recipe site
-        This app builds and executes  API calls from a user search and builds results which then users can chose to locally store in a favorites list.
-        I used JQuery, and Jquery-UI to give this app a drag and drop functionality. I also utilized a package called touch punch so the JQuery would work on mobile   
-        I used a mobile CSS frame work called Bulma to build the front end  of this app.
-
-    </Card.Text>
-
-    
-  <div className="ProjectWindow"></div>
-
-
-</Card.Body>
-</Card>
-
-
-</div>
-
-<div className="paneBody">
-
-<Card className=" card bg-dark text-light">
-<Card.Header className="projectTitle">TaskMaster</Card.Header>
-<Card.Body className="cardflex">
-
-    <div className="featureList">
-            <ul className="features"><strong>Features:</strong>
-                <li className="featureItem">Interactive Art Gallery</li>
-                <li className="featureItem">Custom built modals</li>
-                <li className="featureItem">Mobile First interface</li>
-            </ul>
-        </div>
-
-    <Card.Text className="card1text">
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-    </Card.Text>
-
-<div className="ProjectWindow"></div>
-
-</Card.Body>
-</Card>
-
-
-</div>
-
-<div className="paneBody">
-
-
-<Card className=" card bg-dark text-light">
-<Card.Header className="projectTitle">Runbuddy</Card.Header>
-<Card.Body className="cardflex">
-
-        <div className="featureList">
-            <ul className="features"><strong>Features:</strong>
-                <li className="featureItem">Interactive Art Gallery</li>
-                <li className="featureItem">Custom built modals</li>
-                <li className="featureItem">Mobile First interface</li>
-            </ul>
-        </div>
-
-    <Card.Text className="card1text">
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-    </Card.Text>
-
-<div className="ProjectWindow"></div>
-
-</Card.Body>
-</Card>
-
-
-</div>
-
-<div className="paneBody">
-
-<Card className=" card bg-dark text-light">
-<Card.Header className="projectTitle">Work Scheduler</Card.Header>
-<Card.Body className="cardflex">
-
-        <div className="featureList">
-            <ul className="features"><strong>Features:</strong>
-                <li className="featureItem">Interactive Art Gallery</li>
-                <li className="featureItem">Custom built modals</li>
-                <li className="featureItem">Mobile First interface</li>
-            </ul>
-        </div>
-
-    <Card.Text className="card1text">
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-    </Card.Text>
-
-<div className="ProjectWindow"></div>
-
-</Card.Body>
-</Card>
-
-
-</div>
-
-
-    </div>
-
-
-           
-
-
-    )
-
+    }
 }
 
-
-export default Projects
+export default Project
