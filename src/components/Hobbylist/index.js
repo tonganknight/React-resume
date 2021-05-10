@@ -23,10 +23,13 @@ class Hobbylist extends Component {
     SoundPlay = (src) => {
         const sound = new Howl({
             src
-        }) 
+        });
+
         sound.once('load', function(){
-        sound.play()
-        })
+            sound.play();
+          });
+
+
         
     }
 
@@ -34,7 +37,7 @@ class Hobbylist extends Component {
         return audioClips.map((soundObj, index) => {
             return(
                 <div className="buttonflex">
-                <Button key={index} className="soundButton" onClick ={() => this.SoundPlay(soundObj.sound)}>
+                <Button id={index}key={index} className="soundButton" onClick ={() => this.SoundPlay(soundObj.sound)}>
                    {soundObj.label}
                 </Button>
                 </div>
