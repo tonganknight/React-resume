@@ -1878,11 +1878,28 @@ width: 100%;
   border-radius: 17px;
 }
 
-.cardHobbie{
+.cardHobby{
   width: 50% !important;
   margin-top: 100px;
   margin-left: 7%;
 }
+
+.cardHobby2{
+  width: 50% !important;
+  margin-top: 0px !important;
+}
+
+.cardHobby3{
+  width: 50% !important;
+  margin-top: 0px !important;
+  margin-right: 5% !important;
+  
+}
+
+.cardHobby2Header{
+font-size: 40px;
+}
+
 
 .aboutMeCardText{
   font-size: 20px;
@@ -1905,6 +1922,11 @@ width: 100%;
   margin-left: 200px;
   margin-top: 200px;
   font-size: 24px;
+}
+
+.buttonflex{
+display: flex;
+flex-direction: column;
 }
 
 .hobbiebutton{
@@ -1933,7 +1955,7 @@ width: 100%;
 .hobbies{
   display:flex;
   flex-direction: row;
-  margin-left: 500px;
+  margin-left: 5%;
 
 }
 
@@ -2259,8 +2281,17 @@ background-image: url("https://cdn3.iconfinder.com/data/icons/logos-and-brands-a
   margin-left:650px;
 }
 
+
 .exoeriencebackgroundflex{
 background-color:  var(--background);
+}
+
+
+.cardExperience{
+  width: 50% !important;
+  margin-top: 5% !important;
+  margin-left: 12% !important;
+  
 }
 
 .expierencetextflex{
@@ -2284,7 +2315,7 @@ background-color:  var(--background);
   flex-direction: column;
   align-items: center;
   margin-left: 10%;
-  margin-top: 3%;
+  margin-top: 5%;
   background-color: var(--background);
   color: var(--primary-color);
   height: 100%;  
@@ -2301,8 +2332,7 @@ background-color:  var(--background);
   font-size: 25px;
   text-align: center;
   width: 900px;
-  margin-top: 60px;
-  margin-left: 15%;
+  margin-left: 4%;
   color: var(--primary-color);
 
 }

@@ -42,7 +42,7 @@ class About extends Component {
         <div className="aboutmetextflex">
             <div className="mypic"></div>
 
-            <Card className=" cardHobbie bg-dark text-light">
+            <Card className=" cardHobby bg-dark text-light">
             <Card.Header className="projectTitle">Hello My name is Malachi</Card.Header>
             <Card.Body className="cardflex">
             <Card.Text className="aboutMeCardText">

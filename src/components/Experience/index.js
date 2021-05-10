@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card } from 'react-bootstrap'
 
 
 function Experience(){
@@ -82,13 +83,26 @@ function Experience(){
 
         <div className="experienceDivHolder">
 
-        <div className="experiencetext">This past year I have been enrolled in the University of Utah Coding Camp.
-         I have been learning front end and back end technologies, and actively deploying applications. 
-         Creating sharp clean user friendly UIs has become second nature to me. 
-         I have worked with multiple CSS frameworks, and am skilled  with both CS Grid and Bootstrap.
-         I have experience with mobile first applications, and designing interactive content for users. 
-        <div className="break"></div> Node.js and Database are also tools I have ready for any fullstack application. I am experienced at creating large scale projects using MVC format, and an in depth understanding of testing and  object oriented programing, in Agile Development.
-          I also have experience building full scale projects, and have several repeatable builds on hand.    </div>
+        <Card className=" cardExperience bg-dark text-light">
+            <Card.Header className="projectTitle">My Experience</Card.Header>
+            <Card.Body className="cardflex">
+            <Card.Text className="aboutMeCardText">
+
+            <div className="experiencetext">This past year I have been enrolled in the University of Utah Coding Camp.
+            I have been learning front end and back end technologies, and actively deploying applications. 
+            Creating sharp clean user friendly UIs has become second nature to me. 
+            I have worked with multiple CSS frameworks, and am skilled  with both CS Grid and Bootstrap.
+            I have experience with mobile first applications, and designing interactive content for users. 
+            <div className="break"></div> Node.js and Database are also tools I have ready for any fullstack application.
+             I am experienced at creating large scale projects using MVC format, and an in depth understanding of testing and  object oriented programing, in Agile Development.
+              I also have experience building full scale projects, and have several repeatable builds on hand.   
+             </div>
+
+            </Card.Text>
+            </Card.Body>
+            </Card>
+
+        
         
           <div className="databaseExHolder">
 

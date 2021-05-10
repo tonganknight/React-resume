@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import Ukulele from "../../assets/Sounds/Ukulele.mp3"
 import Guitar from "../../assets/Sounds/Guitar.mp3"
 import {Howl, Howler} from 'howler';
-import {Button} from 'react-bootstrap'
+import {Button, Card} from 'react-bootstrap'
 
 
 const audioClips =[
@@ -33,9 +33,11 @@ class Hobbylist extends Component {
     RenderSoundButtons = () =>{
         return audioClips.map((soundObj, index) => {
             return(
+                <div className="buttonflex">
                 <Button key={index} className="soundButton" onClick ={() => this.SoundPlay(soundObj.sound)}>
                    {soundObj.label}
                 </Button>
+                </div>
             )
         })
     }
@@ -49,23 +51,32 @@ class Hobbylist extends Component {
 
 
 
-        <ul className="hobbielisttext"><strong>Some things that I enjoy</strong>
+            <Card className=" cardHobby2 bg-dark text-light">
+            <Card.Header className="projectTitle"><ul className="cardHobby2Header">Some things that I enjoy</ul></Card.Header>
+            <Card.Body className="cardflex">
+            <Card.Text className="aboutMeCardText">
+
             <li> I have a passion for music.
              I play The Ukulele, and The Guitar.</li>
+            <li>I love spending time with family and friends</li>
+            <li>I enjoy visiting Museums and Landmarks</li>
+            <li>I am a huge fan of Sushi</li>
+            <li>I also enjoy exploring, and learning new technologies</li>
+            </Card.Text>
+            </Card.Body>
+            </Card>
 
-        <li>I love spending time with family and friends</li>
-        <li>I enjoy visiting Museums and Landmarks</li>
-        <li>I am a huge fan of Sushi</li>
-        <li>I also enjoy exploring, and learning new technologies</li>
-        </ul>
 
-        <div className="music"><strong>Check a few of my Songs</strong>
-                {this.RenderSoundButtons()}
-                  </div>
-            
-       
-       
-           
+            <Card className=" cardHobby3 bg-dark text-light">
+            <Card.Header className="projectTitle"><div className="music">Check a few of my Songs</div></Card.Header>
+            <Card.Body className="cardflex">
+            <Card.Text className="aboutMeCardText">
+                <div className="buttonflex"></div>
+            {this.RenderSoundButtons()}
+            </Card.Text>
+            </Card.Body>
+            </Card>
+
     </div>
     )
 

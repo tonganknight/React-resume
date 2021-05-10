@@ -27,7 +27,7 @@ function ProjectInterface() {
      
             <Card.Text className="card1text">
                 This is a custom portfolio I built for a Graphic Design graduate.
-                It runs on  a React and uses components for easy navigation.
+                Its a  React application and uses components for easy navigation.
                 It also uses react-bootstrap's colum system for its lay out. 
                 I built a custom modal layout for this app that utilizes reacts state management for multiple view options.
 
