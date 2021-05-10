@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import {Card} from 'react-bootstrap';
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -35,10 +36,35 @@ function Contact() {
       
       console.log(formState);
 return(
+
+
     <div className="contactback">
-    <div className="contactTitle"><strong>Feel free to reach out to me!</strong></div> 
-    <div className="contactText">Email: malachialusa@gmail.com</div>
-    <div className="contactText">Phone: 435-772-5277</div>
+      <div className="contactFlex">
+        <div className="chatIcon"></div>
+        <div className="contactTitle"><strong>Lets Chat!</strong></div> 
+      </div>
+
+      <div className="contactText">If you are looking for a Web Developer, or are needing another hand in a porject.
+        I love to touch base with you. Feel free to reach out to me through the contact information below.
+      </div>
+
+      <Card className=" cardContact bg-dark text-light">
+    <Card.Header className="projectTitle">Contact Me</Card.Header>
+    <Card.Body className="cardContactflex">
+            <Card.Text className="card1text">
+
+            <div className="contactEmailFlex">
+              <div className="contactEmailIcon"></div>
+              <div className="cardContactText">malachialusa@gmail.com</div>
+            </div>
+            <div className="contactPhoneFlex">
+            <div className="contactPhoneIcon"></div>
+            <div className="cardContactText">435-772-5277</div>
+            </div>
+            </Card.Text>    
+    </Card.Body>
+  </Card>
+
     <div className="contactText">Or message me through the social media outlets below!</div>
 
     </div>
