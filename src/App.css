@@ -2135,9 +2135,16 @@ color: red;
 
 /* experience icons */
 
-.experienceTitle{
-font-size: 40px;
 
+
+.experienceTitle{
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Zen Dots', cursive;
 }
 
 .xpicon{

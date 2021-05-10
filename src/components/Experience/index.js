@@ -112,39 +112,47 @@ function Experience(){
 
         </div>
         </div>
+
          <div className="exoeriencebackgroundflex">
 
-        <div className="expierencetextflex">
 
-        <div className="experiencetext2"><strong>Here is a brief overview on how I leverage some of these technologies </strong></div>
-        </div>
 
-        <div className="techBreakdown">
+        <Card className=" cardExperience bg-dark text-light">
+            <Card.Header className="experienceTitle">Here is a brief overview on how I leverage some of these technologies </Card.Header>
+            <Card.Body className="cardflex">
+            <Card.Text className="aboutMeCardText">
 
-        <ul><strong>Front-end Technologies</strong>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>JQuery</li>
-            <li>React</li>
-            <li>Bootstrap</li>
-            <li>Handlebars</li>
-            <li>Bulma</li>
-        </ul> 
+            <div className="techBreakdown">
 
-        <ul className="backend"><strong>Back-end Technologies</strong>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>Sequelize.js</li>
-        <li>Mongoose</li>
-        <li>Jest</li>
-        <li>Nodemon</li>
-        <li>Apollo-server</li>
-        <li>APIs</li>
-        <li>GraphQL</li>
-        <li>PWA</li>
-        </ul>
-        </div>
+              <ul><strong>Front-end Technologies</strong>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>JQuery</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+                  <li>Handlebars</li>
+                  <li>Bulma</li>
+              </ul> 
+
+              <ul className="backend"><strong>Back-end Technologies</strong>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Sequelize.js</li>
+              <li>Mongoose</li>
+              <li>Jest</li>
+              <li>Nodemon</li>
+              <li>Apollo-server</li>
+              <li>APIs</li>
+              <li>GraphQL</li>
+              <li>PWA</li>
+              </ul>
+              </div>
+
+            </Card.Text>
+            </Card.Body>
+            </Card>
+
 
         </div>
 
