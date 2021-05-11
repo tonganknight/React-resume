@@ -1,8 +1,24 @@
 import React from 'react';
-import { Card } from 'react-bootstrap'
+import { Card, Popover, OverlayTrigger } from 'react-bootstrap'
 
 
 function Experience(){
+
+  const popover = (
+    <Popover id="popover-basic">
+      <Popover.Title as="h3">Databases I have been using</Popover.Title>
+      <Popover.Content>
+        MongoDB, SQL, MYSQL, SQlite
+      </Popover.Content>
+    </Popover>
+  );
+
+  const Example = () => (
+    <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+      <div className="xpicon databaseicon"></div>
+    </OverlayTrigger>
+  );
+  
 
 
     return(
@@ -51,7 +67,7 @@ function Experience(){
 
         <div className="xpicon reacticon"></div>
 
-        <div className="xpicon databaseicon"></div>
+        <Example />
 
         <div className="xpicon graphqlicon"></div>
 
@@ -104,13 +120,7 @@ function Experience(){
 
         
         
-          <div className="databaseExHolder">
-
-          <div className="databaseicon"></div>
-        <div className="databasetext "><strong>Database:</strong></div>
-        <div className="database">MongoDB, MySQL, SQL</div>
-
-        </div>
+   
         </div>
 
          <div className="exoeriencebackgroundflex">
@@ -146,6 +156,13 @@ function Experience(){
               <li>APIs</li>
               <li>GraphQL</li>
               <li>PWA</li>
+              </ul>
+
+              <ul className="backend"><strong>Databases</strong>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+              <li>SQL</li>
+              <li>SQLite</li>
               </ul>
               </div>
 

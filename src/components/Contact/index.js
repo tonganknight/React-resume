@@ -45,7 +45,7 @@ return(
       </div>
 
       <div className="contactText">If you are looking for a Web Developer, or are needing another hand in a porject.
-        I love to touch base with you. Feel free to reach out to me through the contact information below.
+        I would love to touch base with you. Feel free to reach out to me through the contact information below.
       </div>
 
       <Card className=" cardContact bg-dark text-light">
