@@ -12,7 +12,7 @@ function ProjectInterface() {
         <div className="pane">
 
         <Card className=" card bg-dark text-light">
-    <Card.Header className="projectTitle">Artist Portfolio</Card.Header>
+    <Card.Header className="projectTitle">Graphic Designer Portfolio</Card.Header>
     <Card.Body className="cardflex">
 
         <div className="featureList">
@@ -33,7 +33,7 @@ function ProjectInterface() {
 
             </Card.Text>
         
-        <div className="ProjectWindow"></div>
+        <div className="ProjectWindowPortfolio"></div>
 
     </Card.Body>
 
@@ -70,7 +70,7 @@ function ProjectInterface() {
     </Card.Text>
 
     
-  <div className="ProjectWindow"></div>
+  <div className="ProjectWindowLeftovers"></div>
 
 
 </Card.Body>
@@ -101,7 +101,7 @@ function ProjectInterface() {
         called TouchPunch that allows its drag and drop features to work really well on mobile.
     </Card.Text>
 
-<div className="ProjectWindow"></div>
+<div className="ProjectWindowTaskMaster"></div>
 
 </Card.Body>
 </Card>
@@ -131,7 +131,7 @@ function ProjectInterface() {
         It is a landing page that uses some interesting from-end features such as: CS Grid, and custom animations,
     </Card.Text>
 
-<div className="ProjectWindow"></div>
+<div className="ProjectWindowRunbuddy"></div>
 
 </Card.Body>
 </Card>
@@ -161,7 +161,7 @@ function ProjectInterface() {
         
     </Card.Text>
 
-<div className="ProjectWindow"></div>
+<div className="ProjectWindowWorkScheduler"></div>
 
 </Card.Body>
 </Card>

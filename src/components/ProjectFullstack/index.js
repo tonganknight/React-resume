@@ -10,7 +10,7 @@ function ProjectFullstack() {
         <div className="pane">
 
         <Card className=" card bg-dark text-light">
-    <Card.Header className="projectTitle">Boost Me</Card.Header>
+    <Card.Header className="projectTitle"><a href="https://boostme-0421.herokuapp.com/" target="Blank" className="BoostMeTextLink">Boost Me</a></Card.Header>
     <Card.Body className="cardflex">
 
         <div className="featureList">
@@ -30,12 +30,12 @@ function ProjectFullstack() {
                 It provides a solid user integrated experience for financial backing.
                 Due to its malleable data structure it was created with an emphasis on repeatable builds in mind.
                 It uses Mongo Database, Express.js, and Apollo for the Server side, and react and bootstrap for the front end.
-                I was responsible for working on the back end of this project
+                I was responsible for working on the back end of this project, and helped intergrade it to our front End
 
 
             </Card.Text>
         
-        <div className="ProjectWindow"></div>
+            <a href="https://boostme-0421.herokuapp.com/" target="Blank" className="ProjectWindowBoostMe"></a>
 
     </Card.Body>
 
@@ -47,7 +47,8 @@ function ProjectFullstack() {
 <div className="paneBody">
 
         <Card className=" card bg-dark text-light">
-    <Card.Header className="projectTitle">Readviews</Card.Header>
+    <Card.Header className="projectTitle"><a target="Blank" href="https://readviews-022021.herokuapp.com/" className="ReadViewsTextLink">Readviews</a> 
+    </Card.Header>
     <Card.Body className="cardflex">
 
         <div className="featureList">
@@ -74,7 +75,7 @@ function ProjectFullstack() {
 
             </Card.Text>
         
-        <div className="ProjectWindow"></div>
+        <a href="https://readviews-022021.herokuapp.com/" target="Blank" className="ProjectWindowReadViews"></a>
 
     </Card.Body>
 
@@ -112,7 +113,7 @@ function ProjectFullstack() {
 
             </Card.Text>
         
-        <div className="ProjectWindow"></div>
+        <a href="https://boostme-0421.herokuapp.com/" target="Blank" className="ProjectWindowTechBook"></a>
 
     </Card.Body>
 

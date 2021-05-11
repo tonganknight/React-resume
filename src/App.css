@@ -300,79 +300,7 @@
     font-size: 13px;
   }
   
-  .projectwindow1{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    background-image: url("./assets/Images/leftovers.JPG");
-    background-size: cover;
-    opacity: 1.0;
-  }
   
-  .projectwindow2{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    background-image: url("./assets/Images/Taskmaster-pro.JPG");
-    background-size: cover;
-    opacity: 1.0;
-  }
-  
-  .projectwindow3{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    background-image: url("./assets/Images/work-scheduler.jpg");
-    background-size: cover;
-    opacity: 1.0;
-  }
-  
-  .projectwindow4{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    background-image: url("./assets/Images/run-buddy.JPG");
-    background-size: cover;
-    opacity: 1.0;
-  }
-
-  .projectwindow5{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    background-image: url("./assets/Images/readviewsLogo.png");
-    background-size: cover;
-    opacity: 1.0;
-  }
-  
-  .projectwindow6{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    background-image: url("./assets/Images/Tech-book.JPG");
-    background-size: cover;
-    opacity: 1.0;
-  }
-
-  .projectwindow7{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    background-image: url("./assets/Images/Boostme.JPG");
-    background-size: cover;
-    opacity: 1.0;
-  }
 
   .footerflex{
     background-color:  var(--background);
@@ -759,80 +687,6 @@ width: 100%;
   font-size: 13px;
 }
 
-.projectwindow1{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/leftovers.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow2{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/Taskmaster-pro.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow3{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/work-scheduler.jpg");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow4{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/run-buddy.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow5{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/readviewsLogo.png");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow6{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/Tech-book.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow7{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/Boostme.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
 
 .contactback{
   display: flex;
@@ -1154,79 +1008,6 @@ width: 100%;
   font-size: 13px;
 }
 
-.projectwindow1{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/leftovers.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow2{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/Taskmaster-pro.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow3{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/work-scheduler.jpg");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow4{
-  display: flex;
-  height: 150px;
-  width: 200px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/run-buddy.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow5{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/readviewsLogo.png");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow6{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/Tech-book.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow7{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/Boostme.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
 
 .facebookicon{
   background-image: url("https://cdn2.iconfinder.com/data/icons/2018-social-media-app-logos/1000/2018_social_media_popular_app_logo_facebook-256.png");
@@ -1589,81 +1370,6 @@ width: 100%;
   text-align: center;
   font-size: 20px;
 }
-
-.projectwindow1{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/leftovers.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow2{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/Taskmaster-pro.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow3{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/work-scheduler.jpg");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow4{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 50px;
-  background-image: url("./assets/Images/run-buddy.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow5{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/readviewsLogo.png");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow6{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/Tech-book.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow7{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/Boostme.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
 
 
 .windoweffect:hover{
@@ -2543,12 +2249,99 @@ margin-left: 40%;
 font-size: 20px;
 }
 
-.ProjectWindow{
-  margin-left: 200px;
+.ProjectWindowPortfolio{
+  margin-left: 100px;
   height: 300px;
   width: 100%;
-  border: solid white;
+  background-image: url("./assets/Images/Graphic\ Design\ Portfolio\ Mockup-min.jpg");
+  background-size: cover;
 }
+
+.ProjectWindowLeftovers{
+  margin-left: 100px;
+  height: 300px;
+  width: 100%;
+  background-image: url("./assets/Images/Leftovers\ Mockup-min.jpg");
+  background-size: cover;
+}
+
+.ProjectWindowTaskMaster{
+  margin-left: 100px;
+  height: 300px;
+  width: 100%;
+  background-image: url("./assets/Images/Taskmaster\ Mockup-min.jpg");
+  background-size: cover;
+}
+
+.ProjectWindowRunbuddy{
+  margin-left: 100px;
+  height: 300px;
+  width: 100%;
+  background-image: url("./assets/Images/Run\ Buddy\ Mockup-min.jpg");
+  background-size: cover;
+}
+
+.ProjectWindowWorkScheduler{
+  margin-left: 100px;
+  height: 300px;
+  width: 100%;
+  background-image: url("./assets/Images/Work\ Day\ Scheduler\ Mockup-min.jpg");
+  background-size: cover;
+}
+
+.ProjectWindowReadViews{
+  margin-left: 100px;
+  height: 300px;
+  width: 100%;
+  background-image: url("./assets/Images/Readviews\ Mockup-min.jpg");
+  background-size: cover;
+}
+
+.ReadViewsTextLink{
+  color: var(--primary-color) !important;
+  text-decoration: none !important;
+}
+
+.ReadViewsTextLink:hover{
+  color: var(--secondary-color) !important;
+  text-decoration: none !important;
+}
+
+
+
+.ProjectWindowTechBook{
+  margin-left: 100px;
+  height: 300px;
+  width: 100%;
+  background-image: url("./assets/Images/TechBook\ Mockup-min.jpg");
+  background-size: cover;
+}
+
+
+.ProjectWindowBoostMe{
+  margin-left: 100px;
+  height: 300px;
+  width: 100%;
+  background-image: url("./assets/Images/Boostme\ Mockup-min.jpg");
+  background-size: cover;
+}
+
+.BoostMeTextLink{
+  color: var(--primary-color) !important;
+  text-decoration: none !important;
+}
+
+.BoostMeTextLink:hover{
+  color: var(--secondary-color) !important;
+  text-decoration: none !important;
+}
+
+
+
+.ProjectWindow:hover{
+  box-shadow: 0px 0px 15px 15px var(--secondary-color);
+}
+
 
 .Projectwindow1{
   margin-right: 200px;
@@ -2560,7 +2353,7 @@ font-size: 20px;
 .card1text{
   font-size: 20px;
   width: 100%;
-  margin-left: 200px;
+  margin-left: 5%;
 }
 
 .projectTitle{
@@ -2578,69 +2371,6 @@ font-size: 20px;
   font-size: 15px;
 }
 
-.projectwindow2{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/Taskmaster-pro.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow3{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/work-scheduler.jpg");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow4{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/run-buddy.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow5{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/readviewsLogo.png");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow6{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/Tech-book.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow7{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/Boostme.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
 
 .facebookicon{
   background-image: url("https://cdn2.iconfinder.com/data/icons/2018-social-media-app-logos/1000/2018_social_media_popular_app_logo_facebook-256.png");
