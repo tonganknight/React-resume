@@ -2257,6 +2257,16 @@ font-size: 20px;
   background-size: cover;
 }
 
+.ProjectTitleLink{
+  color: var(--primary-color) !important;
+  text-decoration: none !important;
+}
+
+.ProjectTitleLink:hover{
+  color: var(--secondary-color) !important;
+  text-decoration: none !important;
+}
+
 .ProjectWindowLeftovers{
   margin-left: 100px;
   height: 300px;
@@ -2264,6 +2274,7 @@ font-size: 20px;
   background-image: url("./assets/Images/Leftovers\ Mockup-min.jpg");
   background-size: cover;
 }
+
 
 .ProjectWindowTaskMaster{
   margin-left: 100px;
@@ -2297,17 +2308,6 @@ font-size: 20px;
   background-size: cover;
 }
 
-.ReadViewsTextLink{
-  color: var(--primary-color) !important;
-  text-decoration: none !important;
-}
-
-.ReadViewsTextLink:hover{
-  color: var(--secondary-color) !important;
-  text-decoration: none !important;
-}
-
-
 
 .ProjectWindowTechBook{
   margin-left: 100px;
@@ -2317,7 +2317,6 @@ font-size: 20px;
   background-size: cover;
 }
 
-
 .ProjectWindowBoostMe{
   margin-left: 100px;
   height: 300px;
@@ -2325,18 +2324,6 @@ font-size: 20px;
   background-image: url("./assets/Images/Boostme\ Mockup-min.jpg");
   background-size: cover;
 }
-
-.BoostMeTextLink{
-  color: var(--primary-color) !important;
-  text-decoration: none !important;
-}
-
-.BoostMeTextLink:hover{
-  color: var(--secondary-color) !important;
-  text-decoration: none !important;
-}
-
-
 
 .ProjectWindow:hover{
   box-shadow: 0px 0px 15px 15px var(--secondary-color);
@@ -2368,6 +2355,7 @@ font-size: 20px;
 
 .projectLinks{
   margin-top: 25px;
+  margin-left: 33%;
   font-size: 15px;
 }
 

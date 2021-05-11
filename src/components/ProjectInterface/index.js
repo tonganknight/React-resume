@@ -12,7 +12,7 @@ function ProjectInterface() {
         <div className="pane">
 
         <Card className=" card bg-dark text-light">
-    <Card.Header className="projectTitle">Graphic Designer Portfolio</Card.Header>
+    <Card.Header className="projectTitle"><a href="http://www.alusadesign.com/" target="Blank" className="ProjectTitleLink">Graphic Designer Portfolio</a></Card.Header>
     <Card.Body className="cardflex">
 
         <div className="featureList">
@@ -33,7 +33,7 @@ function ProjectInterface() {
 
             </Card.Text>
         
-        <div className="ProjectWindowPortfolio"></div>
+        <a href="http://www.alusadesign.com/" target="Blank" className="ProjectWindowPortfolio"></a>
 
     </Card.Body>
 
@@ -46,7 +46,8 @@ function ProjectInterface() {
 <div className="paneBody">
 
 <Card className=" cardBody bg-dark text-light">
-<Card.Header className="projectTitle">Leftovers</Card.Header>
+<Card.Header className="projectTitle"><a href="https://tonganknight.github.io/awesome-sauce/" target="Blank" className="ProjectTitleLink">Leftovers</a> 
+</Card.Header>
 <Card.Body className="cardflex">
 
       <div className="featureList">
@@ -70,7 +71,7 @@ function ProjectInterface() {
     </Card.Text>
 
     
-  <div className="ProjectWindowLeftovers"></div>
+  <a href="https://tonganknight.github.io/awesome-sauce/" target="Blank" className="ProjectWindowLeftovers"></a>
 
 
 </Card.Body>
@@ -82,7 +83,8 @@ function ProjectInterface() {
 <div className="paneBody">
 
 <Card className=" card bg-dark text-light">
-<Card.Header className="projectTitle">TaskMaster</Card.Header>
+<Card.Header className="projectTitle"><a href="https://tonganknight.github.io/taskmaster-pro/" target="Blank" className="ProjectTitleLink">TaskMaster</a>
+</Card.Header>
 <Card.Body className="cardflex">
 
     <div className="featureList">
@@ -101,7 +103,7 @@ function ProjectInterface() {
         called TouchPunch that allows its drag and drop features to work really well on mobile.
     </Card.Text>
 
-<div className="ProjectWindowTaskMaster"></div>
+<a href="https://tonganknight.github.io/taskmaster-pro/" target="Blank" className="ProjectWindowTaskMaster"></a>
 
 </Card.Body>
 </Card>
@@ -113,7 +115,8 @@ function ProjectInterface() {
 
 
 <Card className=" card bg-dark text-light">
-<Card.Header className="projectTitle">Runbuddy</Card.Header>
+<Card.Header className="projectTitle"><a href="https://tonganknight.github.io/run-buddy/" target="Blank" className="ProjectTitleLink">Runbuddy</a>
+</Card.Header>
 <Card.Body className="cardflex">
 
         <div className="featureList">
@@ -131,7 +134,7 @@ function ProjectInterface() {
         It is a landing page that uses some interesting from-end features such as: CS Grid, and custom animations,
     </Card.Text>
 
-<div className="ProjectWindowRunbuddy"></div>
+<a href="https://tonganknight.github.io/run-buddy/" target="Blank" className="ProjectWindowRunbuddy"></a>
 
 </Card.Body>
 </Card>
@@ -142,7 +145,8 @@ function ProjectInterface() {
 <div className="paneBody">
 
 <Card className=" card bg-dark text-light">
-<Card.Header className="projectTitle">Work Scheduler</Card.Header>
+<Card.Header className="projectTitle"><a href="https://tonganknight.github.io/Work-Scheduler/" target="Blank" className="ProjectTitleLink">Work Scheduler</a>
+</Card.Header>
 <Card.Body className="cardflex">
 
         <div className="featureList">
@@ -161,7 +165,7 @@ function ProjectInterface() {
         
     </Card.Text>
 
-<div className="ProjectWindowWorkScheduler"></div>
+<a href="https://tonganknight.github.io/Work-Scheduler/" target="Blank" className="ProjectWindowWorkScheduler"></a>
 
 </Card.Body>
 </Card>

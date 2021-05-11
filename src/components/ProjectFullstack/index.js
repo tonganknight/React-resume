@@ -10,7 +10,7 @@ function ProjectFullstack() {
         <div className="pane">
 
         <Card className=" card bg-dark text-light">
-    <Card.Header className="projectTitle"><a href="https://boostme-0421.herokuapp.com/" target="Blank" className="BoostMeTextLink">Boost Me</a></Card.Header>
+    <Card.Header className="projectTitle"><a href="https://boostme-0421.herokuapp.com/" target="Blank" className="ProjectTitleLink">Boost Me</a></Card.Header>
     <Card.Body className="cardflex">
 
         <div className="featureList">
@@ -47,7 +47,7 @@ function ProjectFullstack() {
 <div className="paneBody">
 
         <Card className=" card bg-dark text-light">
-    <Card.Header className="projectTitle"><a target="Blank" href="https://readviews-022021.herokuapp.com/" className="ReadViewsTextLink">Readviews</a> 
+    <Card.Header className="projectTitle"><a target="Blank" href="https://readviews-022021.herokuapp.com/" className="ProjectTitleLink">Readviews</a> 
     </Card.Header>
     <Card.Body className="cardflex">
 
@@ -87,7 +87,7 @@ function ProjectFullstack() {
 <div className="paneBody">
 
         <Card className=" card bg-dark text-light">
-    <Card.Header className="projectTitle">Tech Book</Card.Header>
+    <Card.Header className="projectTitle"><a href="https://the-tech-book.herokuapp.com/" target="Blank" className="ProjectTitleLink">Tech Book</a></Card.Header>
     <Card.Body className="cardflex">
 
         <div className="featureList">
@@ -113,7 +113,7 @@ function ProjectFullstack() {
 
             </Card.Text>
         
-        <a href="https://boostme-0421.herokuapp.com/" target="Blank" className="ProjectWindowTechBook"></a>
+        <a href="https://the-tech-book.herokuapp.com/" target="Blank" className="ProjectWindowTechBook"></a>
 
     </Card.Body>
 
