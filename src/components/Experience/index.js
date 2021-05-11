@@ -14,7 +14,7 @@ function Experience(){
   );
 
   const Example = () => (
-    <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+    <OverlayTrigger trigger="hover" placement="right" overlay={popover}>
       <div className="xpicon databaseicon"></div>
     </OverlayTrigger>
   );
