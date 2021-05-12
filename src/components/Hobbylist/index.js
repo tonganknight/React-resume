@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import { render } from "react-dom";
 import Ukulele from "../../assets/Sounds/Ukulele.mp3"
 import Guitar from "../../assets/Sounds/Guitar.mp3"
 import {Howl, Howler} from 'howler';
 import {Button, Card} from 'react-bootstrap'
-
+import {  Breakpoint, setDefaultBreakpoints, up, down } from 'react-socks';
 
 const audioClips =[
     {sound: Ukulele, label: "Ukulele"},
@@ -36,11 +35,21 @@ class Hobbylist extends Component {
     RenderSoundButtons = () =>{
         return audioClips.map((soundObj, index) => {
             return(
+                
                 <div className="buttonflex">
+                <Breakpoint large up>
                 <Button id={index}key={index} className="soundButton" onClick ={() => this.SoundPlay(soundObj.sound)}>
                    {soundObj.label}
                 </Button>
+                </Breakpoint>
+                <Breakpoint small down>
+                <Button id={index}key={index} className="soundButtonMobile" onClick ={() => this.SoundPlay(soundObj.sound)}>
+                   {soundObj.label}
+                </Button>
+                </Breakpoint>
+
                 </div>
+
             )
         })
     }

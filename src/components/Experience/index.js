@@ -1,8 +1,11 @@
 import React from 'react';
 import { Card, Popover, OverlayTrigger } from 'react-bootstrap'
+import {  Breakpoint, setDefaultBreakpoints, up, down } from 'react-socks';
 
 
 function Experience(){
+
+  
 
   const popover = (
     <Popover id="popover-basic">
@@ -22,75 +25,68 @@ function Experience(){
 
 
     return(
+
     <div className="experienceflex">
 
+      <Breakpoint large up>
         <div className="experienceTitle"></div>
-
         <div className="experienceicons1">
-
         <div className=" xpicon htmlicon"></div>
-
         <div className="xpicon cssicon"></div>
-
         <div className="xpicon javascripticon"></div>
-
         </div>
-
-
         <div className="experienceicons2">
-
         <div className="xpicon npmicon"></div>
-
         <div className="xpicon jqueryicon"></div>
-
         <div className="xpicon bootstrapicon"></div>
-
         <div className="xpicon apiicon"></div>
-
         </div>
-
       <div className="xpicon2textflex">
-
       <div className="xp2icontext"> NPM Packages </div>
-
       <div className="xp2icontext"><span className="jquerytext">JQuery</span></div>
-
       <div className="xp2icontext">Boot Strap</div>
-
       <div className="xp2icontext"><span className="Apitext">Apis</span></div>
-
       </div>
-
       <div className="experienceicons3">
-
         <div className="xpicon nodejsicon"></div>
-
         <div className="xpicon reacticon"></div>
-
         <Example />
-
         <div className="xpicon graphqlicon"></div>
-
         <div className="xpicon pwaicon"></div>
+      </div>
+      <div className="xpicon3textflex">
+        <div className="xp2icontext">Node.js</div>  
+        <div className="xp2icontext">React</div> 
+        <div className="xp3icontext">Database</div>
+        <div className="xp3icontext">GraphQL</div>
+        <div className="xp3icontext">PWA</div>
+        </div>
+</Breakpoint>
 
+<Breakpoint small down>
+<div className="mobileIconFlex">
+      <div className="iconCol1">
+        <div className="htmlIconMobile"></div>
+        <div className="npmIconMobile"></div>
+        <div className="nodeIconMobile"></div>
+        <div className="reactIconMobile"></div>
+      </div>
+      <div className="iconCol1">
+        <div className="cssIconMobile"></div>
+        <div className="jqueryIconMobile"></div>
+        <div className="databseIconMobile"></div>
+        <div className="graphqlIconMobile"></div>
+      </div>
+      <div className="iconCol1">
+        <div className="javascriptIconMobile"></div>
+        <div className="bootstrapIconMobile"></div>
+        <div className="apiIconMobile"></div>
+        <div className="pwaIconMobile"></div>
       </div>
 
-      <div className="xpicon3textflex">
+</div>
 
-        <div className="xp2icontext">Node.js</div>
-  
-        <div className="xp2icontext">React</div>
-  
-        <div className="xp3icontext">Database</div>
-
-        <div className="xp3icontext">GraphQL</div>
-
-        <div className="xp3icontext">PWA</div>
-  
-        </div>
-
-
-
+</Breakpoint>
 
 
       

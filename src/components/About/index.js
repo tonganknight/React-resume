@@ -1,6 +1,6 @@
-import React, { Component, useState} from 'react';
+import React, { Component } from 'react';
 import {Card} from 'react-bootstrap';
-import { render } from "react-dom";
+import {  Breakpoint, setDefaultBreakpoints, up, down } from 'react-socks';
 import Hobbylist from "../Hobbylist"
 
 
@@ -66,13 +66,27 @@ class About extends Component {
 
     </div>
 
-    <button id="aboutbutton" onClick={this._onButtonClick}className=" bg-dark hobbiebutton"> Some of my hobbies</button>
+    <Breakpoint large up>
+    
+        <button id="aboutbutton" onClick={this._onButtonClick}className=" bg-dark hobbiebutton"> Some of my hobbies</button>
 
             {this.state.showComponent ?
             <Hobbylist />:null}
 
 
+    </Breakpoint>
+            
+    <Breakpoint small down>
+    <button id="aboutbutton" onClick={this._onButtonClick}className="hobbiebuttonMobile"> Some of my hobbies</button>
+
+    {this.state.showComponent ?
+    <Hobbylist />:null}
+
+    </Breakpoint>
+
+
     </div>
+
      )
 }
 
