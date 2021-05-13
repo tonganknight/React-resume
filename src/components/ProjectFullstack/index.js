@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card} from 'react-bootstrap';
-import {  Breakpoint,} from 'react-socks';
+import {  Breakpoint } from 'react-socks';
 
 function ProjectFullstack() {
 
@@ -200,7 +200,45 @@ function ProjectFullstack() {
     </Card.Body>
   </Card>
   </div>
+  <div className="paneBody">
 
+        <Card className=" cardMobile bg-dark text-light">
+    <Card.Header className="projectTitleMobile"><a href="https://the-tech-book.herokuapp.com/" target="Blank" className="ProjectTitleLinkMobile">Tech Book</a></Card.Header>
+    <Card.Body className="cardFlexMobile">
+
+   <a href="https://the-tech-book.herokuapp.com/" target="Blank" className="ProjectWindowTechBookMobile"></a>
+
+        <div className="featureList">
+            <ul className="features"><strong>Features:</strong>
+                <li className="featureItem2">Express.js, Sequelize Server</li>
+                <li className="featureItem2">MYSQL Database</li>
+                <li className="featureItem2">User Posts, and Comments</li>
+                <li className="featureItem2">User Upvote System</li>
+                <li className="featureItem2">Password Hashing</li>
+                <li className="featureItem2">Friends List</li>
+                <li className="featureItem2">Handlebars Interface</li>
+                <li className="featureItem2">Bootstrap Layout</li>
+                
+
+        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Katie-Portfolio">Click here</a></div>
+            </ul>
+        </div>
+     
+            <Card.Text className="card1text">
+            Tech Book is a full stack social media site. That uses MYSQL as a Database, and leverages its strict 
+            data relations to create a comment and post system. This current build of it is for New Technology posts.
+            However, this can easily be rebuilt as a Social Media application of any kind.
+
+            </Card.Text>
+        
+
+
+    </Card.Body>
+ 
+  </Card>
+
+
+</div>
 
 
 </div>

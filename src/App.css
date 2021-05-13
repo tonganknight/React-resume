@@ -508,7 +508,53 @@
   width: 90%;
 }
 
+.ProjectWindowTechBookMobile{
+  background-image: url("./assets/Images/TechBook\ Mockup-min.jpg");
+  background-size: cover;
+  margin: 15px;
+  height: 150px;
+  width: 90%;
+}
 
+.ProjectWindowPortfolioMobile{
+  background-image: url("./assets/Images/Graphic\ Design\ Portfolio\ Mockup-min.jpg");
+  background-size: cover;
+  margin: 15px;
+  height: 200px;
+  width: 90%;
+}
+
+.ProjectWindowLeftoversMobile{
+  background-image: url("./assets/Images/Leftovers\ Mockup-min.jpg");
+  background-size: cover;
+  margin: 15px;
+  height: 200px;
+  width: 90%;
+}
+
+.ProjectWindowTaskMasterMobile{
+  background-image: url("./assets/Images/Taskmaster\ Mockup-min.jpg");
+  background-size: cover;
+  margin: 15px;
+  height: 200px;
+  width: 90%;
+}
+
+.ProjectWindowRunBuddyMobile{
+  background-image: url("./assets/Images/Run\ Buddy\ Mockup-min.jpg");
+  background-size: cover;
+  margin: 15px;
+  height: 200px;
+  width: 90%;
+}
+
+.ProjectWindowWorkSchedulerMobile{
+  background-image: url("./assets/Images/Work\ Day\ Scheduler\ Mockup-min.jpg");
+  background-size: cover;
+  margin: 15px;
+  height: 200px;
+  width: 90%;
+}
 
   @media only screen and (min-width: 320px) {  
   
