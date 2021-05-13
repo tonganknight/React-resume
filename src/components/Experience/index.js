@@ -88,11 +88,6 @@ function Experience(){
 
 </Breakpoint>
 
-
-      
-    
-
-
         <div className="experienceDivHolder">
 
         <Card className=" cardExperience bg-dark text-light">

@@ -6,8 +6,8 @@ import {Button, Card} from 'react-bootstrap'
 import {  Breakpoint, setDefaultBreakpoints, up, down } from 'react-socks';
 
 const audioClips =[
-    {sound: Ukulele, label: "Ukulele"},
-    {sound: Guitar, label: "Guitar"}
+    {sound: Ukulele, label: "Ukulele"}
+   
     
 ]
 

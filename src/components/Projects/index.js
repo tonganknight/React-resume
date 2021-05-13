@@ -1,8 +1,9 @@
-import React, { useState, Component}from 'react';
-import {Card, Button} from 'react-bootstrap';
+import React from 'react';
+import { Button } from 'react-bootstrap';
 import ProjectInterface from '../ProjectInterface';
 import ProjectFullstack from '../ProjectFullstack';
 import AllProjects from '../AllProjects';
+import {  Breakpoint,} from 'react-socks';
 
 class Project extends React.Component{
     constructor(props) {
@@ -53,7 +54,10 @@ class Project extends React.Component{
         }
 
         return(
-                <div className="Projectbox">
+
+                <div>
+                <Breakpoint large up>
+                    <div className="Projectbox">
                     <div className="projectIntro">Here is some of my recent work.
                     I've broken it into two catagories for easier navigation. </div>
                     <div className="projectIntro2"><strong>Or feel free to scroll down and explore them all at once.</strong></div>
@@ -64,7 +68,22 @@ class Project extends React.Component{
                     </div>
                     {Projectdiv}
                         </div>
+                </Breakpoint>  
 
+                <Breakpoint small down>
+                <div className="Projectbox">
+                    <div className="projectIntroMobile">Here is some of my recent work.
+                     Please keep in mind some of these projects will take some time to load as they are on free Dynomos.
+                      I've broken these into two catagories for easier navigation. You are welcome to filter these</div>
+                    <div className="projectIntro2Mobile"><strong>Or feel free to scroll down and explore them all at once.</strong></div>
+                    <div className="buttonContainer"> 
+                        <Button variant="outline-dark" className="bg-dark text-light projectButtonsMobile" onClick={this.handleUiClick}>Creative UI</Button>
+                        <Button variant="outline-dark" className="bg-dark text-light projectButtonsMobile" onClick={this.handleFullstackClick}>Full Stack</Button>
+                        </div>
+                            {Projectdiv}
+                        </div>
+                    </Breakpoint>  
+                </div>
         )
 
     }
