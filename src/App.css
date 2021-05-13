@@ -556,6 +556,145 @@
   width: 90%;
 }
 
+/* End of Projects section on Mobile*/
+
+.contactFlexMobile{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.chatIconMobile{
+  width: 200px;
+  height: 200px;
+  margin-left: 23%;
+  background-image: url("../src/assets/Images/iconfinder_sms_message-min.png");
+  background-size: cover;
+}
+
+.contactTitleMobile{
+  margin-top: 5%;
+  margin-left: 23%;
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Zen Dots', cursive;
+  text-align: center;
+}
+
+.contactTextMobile{
+  background-color: var(--background);
+  margin-top: 3%;
+  margin-left: 15%;
+  width: 70%;
+  color: var(--primary-color);
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;;
+}
+
+.contactEmailFlexMobile{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.cardContactTextMobile{
+  background-color: transparent;
+  margin-top: 8%;
+  width: 50%;
+  color: var(--primary-color);
+  font-size: 12px;
+  margin-left: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.cardContactflexMobile{
+  background-color: transparent;
+
+}
+
+.emailIconMobile{
+  background-color: transparent;
+  height: 75px;
+  width: 75px;
+  background-image: url("./assets/Images/iconfinder_email_1110063-min.png");
+  background-size: cover;
+}
+
+.contactPhoneFlexMobile{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.phoneIconMobile{
+  background-color: transparent;
+  height: 75px;
+  width: 75px;
+  background-image: url("./assets/Images/iconfinder_phone_1110052-min.png");
+  background-size: cover;
+}
+
+.cardContactTextMobile{
+  background-color: transparent;
+  margin-top: 8%;
+  width: 50%;
+  color: var(--primary-color);
+  font-size: 12px;
+  margin-left: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+.footerflexMobile{
+  background-color:  var(--background);
+  display: flex;
+  flex-direction: row;
+  padding-left: 30%;
+  height: 150px;
+}
+
+
+.facebookiconMobile{
+  background-image: url("https://cdn2.iconfinder.com/data/icons/2018-social-media-app-logos/1000/2018_social_media_popular_app_logo_facebook-256.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.linkediniconMobile{
+  background-image: url("https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-256.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.githubiconMobile{
+  background-image: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/github-square-social-media-256.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
   @media only screen and (min-width: 320px) {  
   
     .Name{
@@ -600,11 +739,29 @@
     }
 
     .experienceTitle {
+      background-color: transparent;
       font-family: 'Zen Dots', cursive;
       font-size: 20px;
       font-weight: bold;
-
     }
+
+    .contactEmailIconMobile{
+      background-color: transparent;
+      height: 100px;
+      width: 100px;
+      background-image: url("./assets/Images/iconfinder_email_1110063-min.png");
+      background-size: cover;
+    }
+
+    .footerflex{
+      background-color:  var(--background);
+      display: flex;
+      flex-direction: row;
+      padding-left: 50%;
+      height: 150px;
+    }
+
+
     
 
 
@@ -1700,7 +1857,6 @@ font-size: 20px;
   width: 60px;
   margin-top: 100px;
   margin-bottom: 20px;
-  
 }
 
 .linkedinicon{

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Card} from 'react-bootstrap';
 import {  Breakpoint } from 'react-socks';
+import Footer from '../Footer'
 
 function ProjectInterface() {
 
@@ -193,10 +194,7 @@ function ProjectInterface() {
 <Card.Header className="projectTitleMobile"><a href="http://www.alusadesign.com/" target="Blank" className="ProjectTitleLinkMobile">
     Graphic Designer Portfolio</a></Card.Header>
 <Card.Body className="cardFlexMobile">
-
 <a href="http://www.alusadesign.com/" target="Blank" className="ProjectWindowPortfolioMobile"></a>
-
-
 <div className="featureList">
     <ul className="features"><strong>Features:</strong>
         <li className="featureItem">Interactive Art Gallery</li>
@@ -215,8 +213,8 @@ function ProjectInterface() {
 </Card.Body>
 </Card>
 </div>
-<div className="paneBody">
 
+<div className="paneBody">
 <Card className=" cardMobile bg-dark text-light">
 <Card.Header className="projectTitleMobile"><a href="https://tonganknight.github.io/awesome-sauce/" target="Blank" className="ProjectTitleLinkMobile">
     Leftovers</a> 
@@ -245,7 +243,6 @@ function ProjectInterface() {
 </div>
 
 <div className="paneBody">
-
 <Card className=" cardMobile bg-dark text-light">
 <Card.Header className="projectTitleMobile"><a href="https://tonganknight.github.io/taskmaster-pro/" target="Blank" className="ProjectTitleLinkMobile">
     TaskMaster</a>
@@ -295,15 +292,12 @@ function ProjectInterface() {
 </div>
 
 <div className="paneBody">
-
 <Card className=" cardMobile bg-dark text-light">
 <Card.Header className="projectTitleMobile"><a href="https://tonganknight.github.io/Work-Scheduler/" target="Blank" className="ProjectTitleLinkMobile">
     Work Scheduler</a>
 </Card.Header>
 <Card.Body className="cardFlexMobile">
-
 <a href="https://tonganknight.github.io/Work-Scheduler/" target="Blank" className="ProjectWindowWorkSchedulerMobile"></a>    
-
         <div className="featureList">
             <ul className="features"><strong>Features:</strong>
                 <li className="featureItem">Interactive Hourly Scheduler</li>
@@ -312,31 +306,17 @@ function ProjectInterface() {
                 <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Work-Scheduler">Click here</a></div>
             </ul>
         </div>
-
     <Card.Text className="card1text">
         This application uses Moment.JS to create an hourly schedule for a work day. 
         It lets users set up custom tasks for each hour of the day. 
         As each hour passes through the day, the interface will update to reflect how far along you are in your day, and which hours have passed.
-        
     </Card.Text>
-
-
-
 </Card.Body>
 </Card>
 </div>
-
-
-
 </div>
-
-</Breakpoint>
-          
+</Breakpoint> 
 </div>
-
     )
-
 }
-
-
 export default ProjectInterface

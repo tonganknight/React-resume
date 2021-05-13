@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import {Card} from 'react-bootstrap';
+import {  Breakpoint,} from 'react-socks';
+import Footer from '../Footer'
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -37,7 +39,8 @@ function Contact() {
       console.log(formState);
 return(
 
-
+    <div>
+    <Breakpoint large up>
     <div className="contactback">
       <div className="contactFlex">
         <div className="chatIcon"></div>
@@ -67,6 +70,47 @@ return(
 
     <div className="contactText">Or message me through the social media outlets below!</div>
 
+    </div>
+
+    </Breakpoint>
+    <Breakpoint small down>
+    <div className="contactback">
+    <div className="contactFlexMobile">
+        <div className="chatIconMobile"></div>
+        <div className="contactTitleMobile"><strong>Lets Chat!</strong></div> 
+      </div>
+      <div className="contactTextMobile">If you are looking for a Web Developer, or are needing another hand in a porject.
+        I would love to touch base with you. Feel free to reach out to me through the contact information below.
+      </div>
+      
+      <Card className=" cardContact bg-dark text-light">
+    <Card.Header className="projectTitleMobile">Contact Me</Card.Header>
+    <Card.Body className="cardContactflexMobile">
+            <Card.Text className="card1text">
+
+            <div className="contactEmailFlexMobile">
+              <div className="emailIconMobile"></div>
+              <a href="mailto:malachialusa@gmail.com" className="cardContactTextMobile" >malachialusa@gmail.com</a>
+            </div>
+            <div className="contactPhoneFlexMobile">
+            <div className="phoneIconMobile"></div>
+            <a  href="tel:435-772-5277"className="cardContactTextMobile">435-772-5277</a>
+            </div>
+            </Card.Text>    
+    </Card.Body>
+  </Card>
+
+    <div className="contactTextMobile">Or message me through the social media outlets below!</div>
+
+    <div className="footerflexMobile">
+        <a className="icon facebookiconMobile" target="blank" href="https://www.facebook.com/malachi.alusa"></a>
+          <a className="icon linkediniconMobile" target="blank" href="https://www.linkedin.com/in/malachi-alusa-a96439174/"></a>
+          <a className="icon githubiconMobile" target="blank" href="https://github.com/tonganknight"></a>
+
+        </div>
+
+    </div>
+    </Breakpoint>
     </div>
   //   <section>
   //   <div className="contactflex"> 
