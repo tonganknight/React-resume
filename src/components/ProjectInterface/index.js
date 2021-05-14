@@ -30,7 +30,7 @@ function ProjectInterface() {
             <Card.Text className="card1text">
                 This is a custom portfolio I built for a Graphic Design graduate.
                 Its a  React application and uses components for easy navigation.
-                It also uses react-bootstrap's colum system for its lay out. 
+                It also uses react-bootstrap's column system for its lay out. 
                 I built a custom modal layout for this app that utilizes reacts state management for multiple view options.
 
             </Card.Text>
@@ -207,7 +207,7 @@ function ProjectInterface() {
     <Card.Text className="card1text">
         This is a custom portfolio I built for a Graphic Design graduate.
         Its a  React application and uses components for easy navigation.
-        It also uses react-bootstrap's colum system for its lay out. 
+        It also uses react-bootstrap's column system for its lay out. 
         I built a custom modal layout for this app that utilizes reacts state management for multiple view options.
     </Card.Text>
 </Card.Body>

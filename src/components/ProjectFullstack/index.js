@@ -33,7 +33,7 @@ function ProjectFullstack() {
                 It provides a solid user integrated experience for financial backing.
                 Due to its malleable data structure it was created with an emphasis on repeatable builds in mind.
                 It uses Mongo Database, Express.js, and Apollo for the Server side, and react and bootstrap for the front end.
-                I was responsible for working on the back end of this project, and helped intergrade it to our front End
+                I was responsible for working on the back end of this project, and helped integrate it to our front End
 
 
             </Card.Text>
@@ -73,7 +73,7 @@ function ProjectFullstack() {
             Readviews is Project with the idea of creating a interactive website for book reviews.
                It allows users to sign up and login and post reviews for books they have read. 
                They can also explore other users reviews. It also lets users intact with each others posts 
-               through comments and upvotes. This project utilizes: MySQL database, Express, and Sequelize for the backend and 
+               through comments and upvotes. This project utilizes: MySQL Database, Express, and Sequelize for the backend and 
                handlebars, Sass and Bulma for the front end. 
 
             </Card.Text>
@@ -156,11 +156,11 @@ function ProjectFullstack() {
             </div>
 
             <Card.Text className="card1text">
-                Boost Me is a donation platform that was built for the 4H community.
+                Boost Me is a donation platform that was built for the 4H Community.
                 It provides a solid user integrated experience for financial backing.
-                Due to its malleable data structure it was created with an emphasis on repeatable builds in mind.
+                Due to its malleable data structure it was created with an emphasis on repeatable builds.
                 It uses Mongo Database, Express.js, and Apollo for the Server side, and react and bootstrap for the front end.
-                I was responsible for working on the back end of this project, and helped intergrade it to our front End
+                I was responsible for working on the back end of this project, and helped integrate it to our front End
             </Card.Text>
             </Card.Body>
             </Card>
@@ -193,7 +193,7 @@ function ProjectFullstack() {
             Readviews is Project with the idea of creating a interactive website for book reviews.
                It allows users to sign up and login and post reviews for books they have read. 
                They can also explore other users reviews. It also lets users intact with each others posts 
-               through comments and upvotes. This project utilizes: MySQL database, Express, and Sequelize for the backend and 
+               through comments and upvotes. This project utilizes: MySQL Database, Express, and Sequelize for the backend and 
                handlebars, Sass and Bulma for the front end. 
 
     </Card.Text>

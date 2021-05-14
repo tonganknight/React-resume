@@ -47,7 +47,7 @@ class About extends Component {
             <Card.Body className="cardflex">
             <Card.Text className="aboutMeCardText">
 
-           I am a Web Developer. I was born in Redwood City California. Over the course of my life.
+           I am a Web Developer. I was born in Redwood City, California. Over the course of my life.
            I have had the opportunity to work around the country. I am a passionate individual that loves life. 
            I have a strong work ethic, and emphasize an out of the box style approach to problem solving. 
            <div className="break"></div>I enjoy being creative.

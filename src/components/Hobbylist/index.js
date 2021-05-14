@@ -69,11 +69,11 @@ class Hobbylist extends Component {
             <Card.Text className="aboutMeCardText">
 
             <li> I have a passion for music.
-             I play The Ukulele, and The Guitar.</li>
+             I play The  Harmonica, the Ukulele, and the Guitar.</li>
             <li>I love spending time with family and friends</li>
-            <li>I enjoy visiting Museums and Landmarks</li>
+            <li>I enjoy visiting museums and landmarks</li>
             <li>I am a huge fan of Sushi</li>
-            <li>I also enjoy exploring, and learning new technologies</li>
+            <li>I also enjoy exploring and learning new technologies</li>
             </Card.Text>
             </Card.Body>
             </Card>

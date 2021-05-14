@@ -96,7 +96,7 @@ function Experience(){
             <Card.Text className="aboutMeCardText">
 
             <div className="experiencetext">This past year I have been enrolled in the University of Utah Coding Camp.
-            I have been learning front end and back end technologies, and actively deploying applications. 
+            I have been learning front end and back-end technologies, and actively deploying applications. 
             Creating sharp clean user friendly UIs has become second nature to me. 
             I have worked with multiple CSS frameworks, and am skilled  with both CS Grid and Bootstrap.
             I have experience with mobile first applications, and designing interactive content for users. 
