@@ -95,14 +95,14 @@ function Experience(){
             <Card.Body className="cardflex">
             <Card.Text className="aboutMeCardText">
 
-            <div className="experiencetext">This past year I have been enrolled in the University of Utah Coding Camp.
-            I have been learning front end and back-end technologies, and actively deploying applications. 
+            <div className="experiencetext">This past year I earned a certificate from the University of Utah in Full Stack Development.
+            I have mastered several front and back-end technologies and actively deployed many applications. 
             Creating sharp clean user friendly UIs has become second nature to me. 
-            I have worked with multiple CSS frameworks, and am skilled  with both CS Grid and Bootstrap.
-            I have experience with mobile first applications, and designing interactive content for users. 
-            <div className="break"></div> Node.js and Database are also tools I have ready for any fullstack application.
-             I am experienced at creating large scale projects using MVC format, and an in depth understanding of testing and  object oriented programing, in Agile Development.
-              I also have experience building full scale projects, and have several repeatable builds on hand.   
+            I have worked with multiple CSS frameworks, and I am skilled with both CS Grid and Bootstrap.
+            My experience with mobile first applications and designing interactive content for users is extensive.
+            <div className="break"></div> I have a deep understanding of Node.js and Database, which I have used for many Full Stack applications.
+             I am experienced at creating large scale projects using MVC format and an in depth understanding of testing and object oriented programing in Agile Development.
+              I also have experience building full scale projects and have several repeatable builds on hand.   
              </div>
 
             </Card.Text>
@@ -119,7 +119,7 @@ function Experience(){
 
 
         <Card className=" cardExperience bg-dark text-light">
-            <Card.Header className="experienceTitle">Here is a brief overview on how I leverage some of these technologies </Card.Header>
+            <Card.Header className="experienceTitle">Technologies I Use</Card.Header>
             <Card.Body className="cardflex">
             <Card.Text className="aboutMeCardText">
 

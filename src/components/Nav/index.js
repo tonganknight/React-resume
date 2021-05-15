@@ -5,6 +5,7 @@ import { ButtonGroup, DropdownButton, Dropdown,  } from 'react-bootstrap';
 
 
 function Nav({currentPage, handlepageChange}) {
+    
 
 
     
@@ -16,7 +17,7 @@ function Nav({currentPage, handlepageChange}) {
         <div className="Name">Malachi Alusa</div>
                 {tabs.map(tab => (
                     <div key={tab} className="navtext"><a href={'#' + tab.toLowerCase()}
-                    onClick={() => handlepageChange(tab)}
+                    onClick={() => handlepageChange(tab) }
                     className={ 
                     currentPage === tab ? 'nav-link active' : 'nav-link', "navtext"
                     } >{tab}</a></div>
@@ -31,12 +32,12 @@ function Nav({currentPage, handlepageChange}) {
          <DropdownButton as={ButtonGroup} menuAlign={{ lg: 'right' }} id="bg-nested-dropdown" className="mobileMenuButton">
 
                 {tabs.map(tab => (
-                    <div key={tab} className="navtext"><a href={'#' + tab.toLowerCase()} 
+                    <Dropdown.Item><div key={tab} className="navtext"><a href={'#' + tab.toLowerCase()} 
                     onClick={() => handlepageChange(tab)} data-toggle="dropdown"
                     className={ 
                     currentPage === tab ? 'nav-link active' : 'nav-link', "mobileNavText"
                     } >{tab}</a></div>
-                ))}
+               </Dropdown.Item> ))}
        </DropdownButton>
        </ButtonGroup>
        </nav>

@@ -64,23 +64,23 @@ class Hobbylist extends Component {
 
 
             <Card className=" cardHobby2 bg-dark text-light">
-            <Card.Header className="projectTitle"><ul className="cardHobby2Header">Some things that I enjoy</ul></Card.Header>
+            <Card.Header className="projectTitle"><ul className="cardHobby2Header">Hobbies</ul></Card.Header>
             <Card.Body className="cardflex">
             <Card.Text className="aboutMeCardText">
 
             <li> I have a passion for music.
-             I play The  Harmonica, the Ukulele, and the Guitar.</li>
-            <li>I love spending time with family and friends</li>
-            <li>I enjoy visiting museums and landmarks</li>
-            <li>I am a huge fan of Sushi</li>
-            <li>I also enjoy exploring and learning new technologies</li>
+             I play the harmonica, the ukulele, and the guitar.</li>
+            <li>I love spending time with family and friends.</li>
+            <li>I enjoy visiting museums and landmarks.</li>
+            <li>I am a huge fan of Sushi.</li>
+            <li>I also enjoy exploring and learning new technologies.</li>
             </Card.Text>
             </Card.Body>
             </Card>
 
 
             <Card className=" cardHobby3 bg-dark text-light">
-            <Card.Header className="projectTitle"><div className="music">Check a few of my Songs</div></Card.Header>
+            <Card.Header className="projectTitle"><div className="music">Song I wrote</div></Card.Header>
             <Card.Body className="cardflex">
             <Card.Text className="aboutMeCardText">
                 <div className="buttonflex"></div>

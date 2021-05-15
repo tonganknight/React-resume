@@ -47,15 +47,17 @@ class About extends Component {
             <Card.Body className="cardflex">
             <Card.Text className="aboutMeCardText">
 
-           I am a Web Developer. I was born in Redwood City, California. Over the course of my life.
+           Over the course of my life,
            I have had the opportunity to work around the country. I am a passionate individual that loves life. 
-           I have a strong work ethic, and emphasize an out of the box style approach to problem solving. 
-           <div className="break"></div>I enjoy being creative.
-            I bring a vast and diverse set of experience and expertise. I recently completed some education with the University of Utah. 
-            In April I received a certificate in Full Stack Development. Over the past year I have been producing creative web based solutions to real world problems. 
-            I am a great team player, and love to collaborate with others I also enjoy tackling projects solo.
+           I have a strong work ethic and emphasize an out of the box style approach to problem solving. 
+           As a Web Developer, I have created multiple applications that can easily be repurposed.
+           <div className="break"></div>
+            I bring a vast and diverse set of experience and expertise to the work place.
+            I received a certificate in Full Stack Development from the University of Utah.
+             Over the past year, I have produced creative web based solutions to real world problems. 
+            I am a great team player and love to collaborate with others. I also enjoy tackling projects solo.
             <div className="break"></div> 
-             I am looking for a reputable company that shares my desire to strive for excellence.  
+             I am looking for a reputable company that shares my desire for excellence.  
 
         
             </Card.Text>
@@ -68,7 +70,7 @@ class About extends Component {
 
     <Breakpoint large up>
     
-        <button id="aboutbutton" onClick={this._onButtonClick}className=" bg-dark hobbiebutton"> Some of my hobbies</button>
+        <button id="aboutbutton" onClick={this._onButtonClick}className=" bg-dark hobbiebutton">Hobbies</button>
 
             {this.state.showComponent ?
             <Hobbylist />:null}
@@ -77,7 +79,7 @@ class About extends Component {
     </Breakpoint>
             
     <Breakpoint small down>
-    <button id="aboutbutton" onClick={this._onButtonClick}className="hobbiebuttonMobile"> Some of my hobbies</button>
+    <button id="aboutbutton" onClick={this._onButtonClick}className="hobbiebuttonMobile">Hobbies</button>
 
     {this.state.showComponent ?
     <Hobbylist />:null}

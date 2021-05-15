@@ -47,7 +47,7 @@ return(
         <div className="contactTitle"><strong>Lets Chat!</strong></div> 
       </div>
 
-      <div className="contactText">If you are looking for a Web Developer, or are needing another hand in a porject.
+      <div className="contactText">If you are looking for a Web Developer or needing another hand in a project.
         I would love to touch base with you. Feel free to reach out to me through the contact information below.
       </div>
 
@@ -79,7 +79,7 @@ return(
         <div className="chatIconMobile"></div>
         <div className="contactTitleMobile"><strong>Lets Chat!</strong></div> 
       </div>
-      <div className="contactTextMobile">If you are looking for a Web Developer, or are needing another hand in a porject.
+      <div className="contactTextMobile">If you are looking for a Web Developer or needing another hand in a porject.
         I would love to touch base with you. Feel free to reach out to me through the contact information below.
       </div>
       
