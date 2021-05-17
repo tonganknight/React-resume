@@ -53,7 +53,6 @@ function showDiv(){
 
         <Breakpoint small down>
         <div className="resumeSection">
-        <div className="resumeTitleMobile"><strong>Here are some of my qualifications</strong></div>
         <div className ="UofUTitleMobile"><div id="logo"  className="UofUMicroLogoMobile"></div><strong >University of Utah</strong></div>
         <div className="UofUflexMobile">
         <div className="UofUcredpicMobile" onClick={handleShow1}></div>

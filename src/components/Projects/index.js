@@ -59,7 +59,8 @@ class Project extends React.Component{
                 <Breakpoint large up>
                     <div className="Projectbox">
                     <div className="projectIntro">Here is some of my recent work.
-                    I've broken it into two catagories for easier navigation. </div>
+                     Please keep in mind some of these projects will take some time to load as they are on free Dynomos.
+                      I've broken these into two catagories for easier navigation. You are welcome to filter these</div>
                     <div className="projectIntro2"><strong>Or feel free to scroll down and explore them all at once.</strong></div>
                     <div className="buttonContainer"> 
                         <Button variant="outline-dark" className="bg-dark text-light projectButtons" onClick={this.handleUiClick}>Creative UI</Button>
