@@ -24,7 +24,7 @@ function ProjectFullstack() {
                 <li className="featureItem2">Bycrpt Password Hashing</li>
                 <li className="featureItem2">GraphQL: Relations, Queries, and Mutations</li>
                 <li className="featureItem2">Stripe Checkout System</li>
-        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Katie-Portfolio">Click here</a></div>
+        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/quaylas/boostme">Click here</a></div>
             </ul>
         </div>
      
@@ -65,7 +65,7 @@ function ProjectFullstack() {
                 <li className="featureItem2">Sass and Bulma Layout</li>
                 
 
-        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Katie-Portfolio">Click here</a></div>
+        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/quaylas/readviews">Click here</a></div>
             </ul>
         </div>
      
@@ -107,7 +107,7 @@ function ProjectFullstack() {
                 <li className="featureItem2">Bootstrap Layout</li>
                 
 
-        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Katie-Portfolio">Click here</a></div>
+        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Tech-book">Click here</a></div>
             </ul>
         </div>
      
@@ -151,7 +151,7 @@ function ProjectFullstack() {
                     <li className="featureItem2">Bycrpt Password Hashing</li>
                     <li className="featureItem2">GraphQL: Relations, Queries, and Mutations</li>
                     <li className="featureItem2">Stripe Checkout System</li>
-                    <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Katie-Portfolio">Click here</a></div>
+                    <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/quaylas/boostme">Click here</a></div>
                 </ul>
             </div>
 
@@ -185,7 +185,7 @@ function ProjectFullstack() {
                 <li className="featureItem2">Sass and Bulma Layout</li>
                 
 
-        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Katie-Portfolio">Click here</a></div>
+        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/quaylas/readviews">Click here</a></div>
             </ul>
         </div>
      
@@ -220,7 +220,7 @@ function ProjectFullstack() {
                 <li className="featureItem2">Bootstrap Layout</li>
                 
 
-        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Katie-Portfolio">Click here</a></div>
+        <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Tech-book">Click here</a></div>
             </ul>
         </div>
      
