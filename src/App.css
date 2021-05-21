@@ -690,9 +690,21 @@
   margin-left: 10px;
 }
 
+.projectIntroLarge{
+  width: 50%;
+  color: var(--primary-color);
+  font-size: 24px;
+}
 
+.projectButtonsLarge{
+  margin-bottom: 25px !important;
+  margin-right: 15px;
+}
 
-
+.projectButtonsLarge:hover{
+  color: var(--secondary-color) !important;
+  box-shadow: 0px 0px 10px 10px var(--secondary-color);
+}
 
 
   @media only screen and (min-width: 320px) {  

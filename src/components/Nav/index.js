@@ -7,8 +7,6 @@ import { ButtonGroup, DropdownButton, Dropdown,  } from 'react-bootstrap';
 function Nav({currentPage, handlepageChange}) {
     
 
-
-    
     const tabs =['About', 'Experience', 'Resume', 'Projects', 'Contact']
     return(
         <idv>

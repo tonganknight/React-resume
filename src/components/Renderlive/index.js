@@ -6,6 +6,8 @@ import Contact from '../Contact';
 import Experience from '../Experience'
 import Nav from '../Nav';
 
+//page used to handle current page display
+
 function Renderlive() {
     const [currentPage, handlepageChange] = useState('About');
 

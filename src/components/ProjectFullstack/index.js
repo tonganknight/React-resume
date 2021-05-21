@@ -2,6 +2,8 @@ import React from 'react';
 import {Card} from 'react-bootstrap';
 import {  Breakpoint } from 'react-socks';
 
+//this controls the view of the fullstack project display
+
 function ProjectFullstack() {
 
     return(

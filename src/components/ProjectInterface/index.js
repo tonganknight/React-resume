@@ -3,6 +3,8 @@ import {Card} from 'react-bootstrap';
 import {  Breakpoint } from 'react-socks';
 import Footer from '../Footer'
 
+//this controls the display of the Creative UI projects 
+
 function ProjectInterface() {
 
     return(
