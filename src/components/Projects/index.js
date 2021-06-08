@@ -65,8 +65,8 @@ class Project extends React.Component{
                       I've broken these into two catagories for easier navigation. You are welcome to filter these</div>
                     <div className="projectIntro2"><strong>Or feel free to scroll down and explore them all at once.</strong></div>
                     <div className="buttonContainer"> 
-                        <Button variant="outline-dark" className="bg-dark text-light projectButtonsLarge" onClick={this.handleUiClick}>Creative UI</Button>
-                        <Button variant="outline-dark" className="bg-dark text-light projectButtonsLarge" onClick={this.handleFullstackClick}>Full Stack</Button>
+                        <Button variant="outline-dark projectButtonsLarge" className="bg-dark text-light projectButtonsLarge" onClick={this.handleUiClick}>Creative UI</Button>
+                        <Button variant="outline-dark projectButtonsLarge" className="bg-dark text-light projectButtonsLarge" onClick={this.handleFullstackClick}>Full Stack</Button>
 
                     </div>
                     {Projectdiv}

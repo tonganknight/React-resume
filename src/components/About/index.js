@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Card} from 'react-bootstrap';
+import {Card,} from 'react-bootstrap';
 import {  Breakpoint, setDefaultBreakpoints, up, down } from 'react-socks';
 import Hobbylist from "../Hobbylist"
 
@@ -70,7 +70,7 @@ class About extends Component {
 
     <Breakpoint large up>
     
-        <button id="aboutbutton" onClick={this._onButtonClick}className=" bg-dark hobbiebutton">Hobbies</button>
+        <button id="aboutbutton" class ="projectButtonsLarge" onClick={this._onButtonClick}className=" bg-dark hobbiebutton">Hobbies</button>
 
             {this.state.showComponent ?
             <Hobbylist />:null}
