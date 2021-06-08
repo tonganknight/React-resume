@@ -75,7 +75,9 @@ function ProjectFullstack() {
             Readviews is Project with the idea of creating a interactive website for book reviews.
                It allows users to sign up and login and post reviews for books they have read. 
                They can also explore other users reviews. It also lets users intact with each others posts 
-               through comments and upvotes. This project utilizes: MySQL Database, Express, and Sequelize for the backend and 
+               through comments and upvotes. 
+               <div className="break"></div>
+               This project utilizes: MySQL Database, Express, and Sequelize for the backend and 
                handlebars, Sass and Bulma for the front end. 
 
             </Card.Text>

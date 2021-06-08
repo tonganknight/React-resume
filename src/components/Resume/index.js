@@ -41,7 +41,7 @@ function showDiv(){
         <div className="salesXp">I have a proven history of leading successful teams 
         within both small companies and large International Corporations.
          Some of my experience includes working as a Team Lead Supervisor, managing teams as large as 27 employees, 
-         and an Assistant Manager personally training and maintaining highest grossing teams over a year..
+         and an Assistant Manager personally training and maintaining highest grossing teams over a year.
         I also have some experience in logistics. I worked as a dispatcher for an Electrician company dispatching agents over 
          Salt Lake City, Kanab, and Saint George areas. 
          </div>

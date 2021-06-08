@@ -67,9 +67,9 @@ function ProjectInterface() {
         </div>
 
     <Card.Text className="card1text">
-        Leftovers is an application I built to help Users see required ingredients for recipes  before going to a  recipe site
+        Leftovers is an application I built to help Users see required ingredients for recipes before going to a  recipe site.
         This app builds and executes  API calls from a user search and builds results which then users can chose to locally store in a favorites list.
-        I used JQuery, and Jquery-UI to give this app a drag and drop functionality. I also utilized a package called touch punch so the JQuery would work on mobile   
+        I used JQuery, and Jquery-UI to give this app a drag and drop functionality. I also utilized a package called touch punch, so the JQuery would work on mobile   
         I used a mobile CSS frame work called Bulma to build the front end  of this app.
 
     </Card.Text>
