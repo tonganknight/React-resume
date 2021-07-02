@@ -1758,6 +1758,10 @@ font-size: 20px;
   background-size: cover;
 }
 
+.ProjectWindowPortfolio:hover{
+background-image: url("./assets/Images/Portfoliovid-3-78f480bdcb05.gif");
+}
+
 .projectTitle{
   color: var(--primary-color);
   font-weight: bold;
@@ -1784,6 +1788,10 @@ font-size: 20px;
   width: 100%;
   background-image: url("./assets/Images/Leftovers\ Mockup-min.jpg");
   background-size: cover;
+}
+
+.ProjectWindowLeftovers:hover{
+  background-image:  url("./assets/Images/leftovervid-3-825763ac85e5.gif");
 }
 
 
@@ -1819,6 +1827,10 @@ font-size: 20px;
   background-size: cover;
 }
 
+.ProjectWindowReadViews:hover{
+  background-image: url("./assets/Images/Readviewsvid6-20c65e011daf.gif");
+}
+
 
 .ProjectWindowTechBook{
   margin-left: 100px;
@@ -1828,6 +1840,10 @@ font-size: 20px;
   background-size: cover;
 }
 
+.ProjectWindowTechBook:hover{
+  background-image: url("./assets/Images/Techbook-2-444fc2af684e.gif");
+}
+
 .ProjectWindowBoostMe{
   margin-left: 100px;
   height: 300px;
@@ -1835,6 +1851,11 @@ font-size: 20px;
   background-image: url("./assets/Images/Boostme\ Mockup-min.jpg");
   background-size: cover;
 }
+
+.ProjectWindowBoostMe:hover{
+  background-image: url("./assets/Images/Boostmevid6-20c65e011daf.gif")
+}
+
 
 .ProjectWindow:hover{
   box-shadow: 0px 0px 15px 15px var(--secondary-color);
