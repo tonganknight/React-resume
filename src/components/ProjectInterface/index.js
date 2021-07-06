@@ -16,7 +16,7 @@ function ProjectInterface() {
         <div className="pane">
 
         <Card className=" card bg-dark text-light">
-    <Card.Header className="projectTitle"><a href="http://www.alusadesign.com/" target="Blank" className="ProjectTitleLink">Graphic Designer Portfolio</a></Card.Header>
+    <Card.Header className="projectTitle"><a href="http://www.alusadesign.com/" target="Blank" className="ProjectTitleLink">AlusaDesign.com</a></Card.Header>
     <Card.Body className="cardflex">
 
         <div className="featureList">

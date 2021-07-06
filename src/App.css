@@ -1803,12 +1803,20 @@ background-image: url("./assets/Images/Portfoliovid-3-78f480bdcb05.gif");
   background-size: cover;
 }
 
+.ProjectWindowTaskMaster:hover{
+  background-image: url("./assets/Images/TaskManager-7-b4f89740a08d.gif");
+}
+
 .ProjectWindowRunbuddy{
   margin-left: 100px;
   height: 300px;
   width: 100%;
   background-image: url("./assets/Images/Run\ Buddy\ Mockup-min.jpg");
   background-size: cover;
+}
+
+.ProjectWindowRunbuddy:hover{
+  background-image: url("./assets/Images/Runbuddyvidgif.gif");
 }
 
 .ProjectWindowWorkScheduler{
