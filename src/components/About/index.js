@@ -70,7 +70,7 @@ class About extends Component {
 
     <Breakpoint large up>
     
-        <button id="aboutbutton" class ="projectButtonsLarge" onClick={this._onButtonClick}className=" bg-dark hobbiebutton">Hobbies</button>
+        <button id="aboutbutton" class ="projectButtonsLarge" onClick={this._onButtonClick}className=" bg-dark projectButtonsLargehobby">Hobbies</button>
 
             {this.state.showComponent ?
             <Hobbylist />:null}

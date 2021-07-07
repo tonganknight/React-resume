@@ -12,6 +12,12 @@ const [show1, setShow1] = useState(false);
 const handleClose1 = () => setShow1(false);
 const handleShow1 = () => setShow1(true);
 
+/* Modal large Screen State*/
+const [show2, setShow2] = useState(false);
+const handleClose2 = () => setShow2(false);
+const handleShow2 = () => setShow2(true);
+
+
 function showDiv(){
     document.getElementById("logo").style.visibility ="visible"
 }
@@ -25,12 +31,26 @@ function showDiv(){
 
          <div className="resumeSection">
 
-        <div onMouseOver ={showDiv}className ="UofUTitle"><div id="logo"  className="UofUMicroLogo"></div><strong >University of Utah</strong></div>
-        <div className="UofUcred"></div> 
-        <div className="UofUflex">
-        <div className="UofUpic"></div>
-        <div className="UofUQRCode"></div>   
-        </div> 
+        <div onMouseOver ={showDiv} className ="UofUTitle"><div id="logo"  className="UofUMicroLogo"></div><strong >University of Utah</strong></div>
+        <div onClick={handleShow2} className="UofUcred"></div> 
+        <Modal className =" .modal-content modal-body-flex border-dark"
+                  size="lg"
+                  show={show2}
+                  onHide={handleClose2}
+                  aria-labelledby="example-modal-sizes-title-lg">
+                  <div className="custom-modal bg-dark" size="lg">
+                 <div className="resumeModalCredFlexLarge">
+                 <div className="resumeModalPic"></div>
+                <div className="credlyMobileModal">Verify through <span className="credlyColor">Credly</span></div> 
+                <a href="https://www.credly.com/" target="Blank" className="qrMobileModal"></a>
+                 </div>
+                  <Button  className=" border-dark modalbuttonMobile" variant="secondary" onClick={handleClose2}>
+                    Close
+                  </Button>
+                  </div>
+        </Modal>
+        
+
         <div className="UofUdiscription">I bring both front end and back end expertise. I have experience working with new technologies and integrating them at a fast pace.
             I am a very quick study and have heavy experience using the MERN stack. I attended the University of Utah and received a certificate in Full Stack Development. 
             Please visit my projects section to see more details on some of my accomplishments and experience in action.</div>
