@@ -1794,6 +1794,19 @@ background-image: url("./assets/Images/Portfoliovid-3-78f480bdcb05.gif");
   text-decoration: none !important;
 }
 
+.ProjectWindowMelesSiteLg{
+  margin-left: 100px;
+  height: 300px;
+  width: 100%;
+  background-image: url("./assets/Images/MelesSite.JPG");
+  background-size: cover;
+}
+
+.ProjectWindowMelesSiteLg:hover{
+background-image: url("./assets/Images/MelesSite.gif");
+
+}
+
 .ProjectWindowLeftovers{
   margin-left: 100px;
   height: 300px;

@@ -79,16 +79,6 @@ class Hobbylist extends Component {
             </Card>
 
 
-            <Card className=" cardHobby3 bg-dark text-light">
-            <Card.Header className="projectTitle"><div className="music">Song I wrote</div></Card.Header>
-            <Card.Body className="cardflex">
-            <Card.Text className="aboutMeCardText">
-                <div className="buttonflex"></div>
-            {this.RenderSoundButtons()}
-            </Card.Text>
-            </Card.Body>
-            </Card>
-
     </div>
     )
 

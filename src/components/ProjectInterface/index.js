@@ -50,6 +50,41 @@ function ProjectInterface() {
 <div className="paneBody">
 
 <Card className=" cardBody bg-dark text-light">
+<Card.Header className="projectTitle"><a href="https://melessite.herokuapp.com/" target="Blank" className="ProjectTitleLink">Mele's Emporium</a> 
+</Card.Header>
+<Card.Body className="cardflex">
+
+      <div className="featureList">
+            <ul className="features"><strong>Features:</strong>
+            <li className="featureItem">React application</li>
+            <li className="featureItem">Mobile First application</li>
+            <li className="featureItem">Object Mapping</li>
+            <li className="featureItem">Custom CSS</li>
+            <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/CommerceSiteJohnson">Click here</a></div>
+            </ul>
+        </div>
+
+    <Card.Text className="card1text">
+        This is a mobile react application that I built for an entrepreneur. 
+        Its a small light weight shop app that lets people place orders for unique gifts 
+        through Venmo. 
+
+    </Card.Text>
+
+    
+  <a href="https://melessite.herokuapp.com/" target="Blank" className="ProjectWindowMelesSiteLg"></a>
+
+
+</Card.Body>
+</Card>
+
+
+</div>
+
+
+<div className="paneBody">
+
+<Card className=" cardBody bg-dark text-light">
 <Card.Header className="projectTitle"><a href="https://tonganknight.github.io/awesome-sauce/" target="Blank" className="ProjectTitleLink">Leftovers</a> 
 </Card.Header>
 <Card.Body className="cardflex">
@@ -194,7 +229,7 @@ function ProjectInterface() {
 
 <Card className=" cardMobile bg-dark text-light">
 <Card.Header className="projectTitleMobile"><a href="http://www.alusadesign.com/" target="Blank" className="ProjectTitleLinkMobile">
-    Graphic Designer Portfolio</a></Card.Header>
+    AlusaDesign.com</a></Card.Header>
 <Card.Body className="cardFlexMobile">
 <a href="http://www.alusadesign.com/" target="Blank" className="ProjectWindowPortfolioMobile"></a>
 <div className="featureList">
