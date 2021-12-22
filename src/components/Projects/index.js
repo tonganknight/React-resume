@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import ProjectInterface from '../ProjectInterface';
 import ProjectFullstack from '../ProjectFullstack';
 import AllProjects from '../AllProjects';
+import RecentWorks from '../RecentWorks';
 import {  Breakpoint,} from 'react-socks';
 
 //this is the display of the projects view. It needs both Project views to render them properly
@@ -12,27 +13,36 @@ class Project extends React.Component{
         super(props);
         this.handleUiClick = this.handleUiClick.bind(this);
         this.handleFullstackClick = this.handleFullstackClick.bind(this);
+        this.handelRecentWorks = this.handelRecentWorks.bind(this);
         this.state = {isShowAll: true};
         this.state ={isShowUI: false};
         this.state ={isShowFullstack: false};
+        this.state ={isRecentWorks: false};
     }
 
     handleUiClick() {
         this.setState({isShowAll: false});
         this.setState({isShowFullstack: false});
         this.setState({isShowUI: true});
-
-    }
-
-    handleFullstackClick() {
-        this.setState({isShowAll: false});
-        this.setState({isShowUI: false});
-        this.setState({isShowFullstack: true});
+        this.setState({isRecentWorks: false});
     }
     handleFullstackClick() {
         this.setState({isShowAll: false});
         this.setState({isShowUI: false});
         this.setState({isShowFullstack: true});
+        this.setState({isRecentWorks: false});
+    }
+    handleFullstackClick() {
+        this.setState({isShowAll: false});
+        this.setState({isShowUI: false});
+        this.setState({isShowFullstack: true});
+        this.setState({isRecentWorks: false});
+    }
+    handelRecentWorks() {
+        this.setState({isShowAll: false});
+        this.setState({isShowUI: false});
+        this.setState({isShowFullstack: false});
+         this.setState({isRecentWorks: true});
     }
 
 
@@ -40,6 +50,7 @@ class Project extends React.Component{
         const isShowAll = this.state.isShowAll;
         const isShowUI = this.state.isShowUI;
         const isShowFullstack = this.state.isShowFullstack
+        const isRecentWorks = this.state.isRecentWorks
 
         let Projectdiv;
         if (isShowAll){
@@ -50,6 +61,9 @@ class Project extends React.Component{
         }
         if (isShowFullstack){
             Projectdiv = <ProjectFullstack />
+        }
+        if(isRecentWorks){
+            Projectdiv = <RecentWorks/>
         }
         if(!Projectdiv){
             Projectdiv =<AllProjects/>
@@ -65,9 +79,10 @@ class Project extends React.Component{
                       I've broken these into two catagories for easier navigation. You are welcome to filter these</div>
                     <div className="projectIntro2"><strong>Or feel free to scroll down and explore them all at once.</strong></div>
                     <div className="buttonContainer"> 
+                        <Button variant="outline-dark projectButtonsLarge" className="bg-dark text-light projectButtonsLarge" onClick={this.handelRecentWorks}>Recent Works</Button>
                         <Button variant="outline-dark projectButtonsLarge" className="bg-dark text-light projectButtonsLarge" onClick={this.handleUiClick}>Creative UI</Button>
                         <Button variant="outline-dark projectButtonsLarge" className="bg-dark text-light projectButtonsLarge" onClick={this.handleFullstackClick}>Full Stack</Button>
-
+                        
                     </div>
                     {Projectdiv}
                         </div>
