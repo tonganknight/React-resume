@@ -24,7 +24,7 @@ function ProjectInterface() {
                 <li className="featureItem">Interactive Art Gallery</li>
                 <li className="featureItem">React Application</li>
                 <li className="featureItem">Custom built modals</li>
-                <li className="featureItem">Mobile First interface</li>
+                <li className="feature Item">Mobile First interface</li>
         <div className="projectLinks">Check out the Repo for this project. <a target ="Blank" href="https://github.com/tonganknight/Katie-Portfolio">Click here</a></div>
             </ul>
         </div>

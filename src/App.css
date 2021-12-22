@@ -529,7 +529,7 @@
 }
 
 .ProjectWindowPortfolioMobile{
-  background-image: url("./assets/Images/Graphic\ Design\ Portfolio\ Mockup-min.jpg");
+  background-image: url("./assets/Images/Portfoliovid-3-78f480bdcb05.gif");
   background-size: cover;
   margin: 15px;
   height: 200px;
@@ -538,6 +538,14 @@
 
 .ProjectWindowLeftoversMobile{
   background-image: url("./assets/Images/Leftovers\ Mockup-min.jpg");
+  background-size: cover;
+  margin: 15px;
+  height: 200px;
+  width: 90%;
+}
+
+.ProjectWindowEmporiumMobile{
+  background-image: url("./assets/Images/MelesSite.gif");
   background-size: cover;
   margin: 15px;
   height: 200px;
