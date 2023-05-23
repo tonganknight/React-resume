@@ -13,7 +13,7 @@ This is my portfolio page! It showcases some of the projects I have built, and l
          
 ## installation 
 
-There is no installation needed! Go to https://react-malachi.herokuapp.com/#about to see a live demo of the site.
+There is no installation needed! Go to malachi.alusa.me to see a live demo of the site.
 
 ## Usage
 
@@ -25,7 +25,7 @@ This project uses react!
 
 ## Testing 
 
-Please visit the page at https://react-malachi.herokuapp.com/#about
+Please visit the page at malachi.alusa.me
 
 ## Credits
 
